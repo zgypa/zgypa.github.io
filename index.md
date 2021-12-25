@@ -1,5 +1,4 @@
 ---
-layout: page
 title: may all beings be happy
 ---
 
