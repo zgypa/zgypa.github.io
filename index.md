@@ -14,6 +14,10 @@ What i have spent time doing, in CV is in [resume/CV](/resume/)
 
 Something [about me](about-me.md).
 
+## [Blog](/blog/)
+
+More a diary then a blog.
+
 ## The lowercase "i" pronoun
 
 It is not by accident that i spell "i" lowercase. This is a personal preference.
