@@ -1,6 +1,5 @@
 theme: jekyll-theme-hacker
 title: toni magni
 description: open standards for medical
-permalink: weekdate
 plugins:
   - jekyll-feed
