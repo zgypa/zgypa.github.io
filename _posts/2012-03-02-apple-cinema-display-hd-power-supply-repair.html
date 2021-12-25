@@ -1,0 +1,34 @@
+---
+layout: post
+title: Apple Cinema Display HD Power Supply Repair
+date: 2012-03-02 23:43:46.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- English
+- Informatics and Telecomunications
+- Mac OS X
+tags: []
+meta:
+  geo_latitude: '44.564696'
+  geo_longitude: '8.718806'
+  geo_public: '1'
+author:
+  login: antoniomagni
+  email: wordpress@antoniomagni.com
+  display_name: Toni
+  first_name: Toni
+  last_name: Magni
+permalink: "/2012/03/02/apple-cinema-display-hd-power-supply-repair/"
+---
+<p><a href="http://antoniomagni.files.wordpress.com/2012/03/20120303-004238.jpg"><img src="{{ site.baseurl }}/assets/2012/03/20120303-004238.jpg" alt="20120303-004238.jpg" class="alignnone size-full" /></a></p>
+<p>The other day i busted the power supply of the Apple Cinema Display HD 20". I went to go look for a used one on eBay and was horrified at the $100 bucks price range.</p>
+<p>After realizing it is really nothing fancy at all, simply a 24.8V 4A power supply, i decided to get the display back working using a generic supply. Or actually not so generic. I used an old iBook G4 power supply. It's really not powerful enough to drive the monitor at full brightness, so i don't suggest it as a permanent fix. However, it does cost $10, and i can alway buy 2 for $20 and connect them in parallel, and still save like $80. </p>
+<p>In any case, i rarely need the full brightness: i almost always keep it at minimum. And the monitor draws like 20W or so at minimum brightness and 70-80W at max brightness. So the 65W iBook (or maybe it was a PowerBook) power supply works great as a temp fix.</p>
+<p>The hardest part was to de-gut the original power supply. At first i was scared, but once i stuck the nose in the the connector hole, and smelled burnt electronics, that's when i got courage: i took a saw to it, and sawed all around the seem, about 2mm of plastic (which is a lot! No way i could do it with an x-acto knife).</p>
+<p>Once degutted, i found that the output connector was first of all nothing but negative, positive and ground (all the other pins are probably just there to make it flippable, without having to worry about polarization, and for optimizing current flow and reliability). And other great news: the connector is soldered on its own mini PCB with two strong independent screws! So all i did was yank the power supply, desolder the cables to the connector PCB, solder some new ones, close the almost empty case with black duct tape, and connect it with the PowerBook's power supply. </p>
+<p>I did try to see if i could fix the original first. However, from a quick look at the supply i realized there wasn't really a visible busted component, so it probably was the transformer which went. It, however, is not marked at all, and it is in the middle of the PCB completely surrounded on all four sides by other components and soldered on the same side of the board! So i would have had to take half board apart, just to remove it. Once i removed it, i still didn't know how to find out what parameters it had, so i wouldn't know what to replace it with.</p>
+<p><strong>Bottom line</strong>: the fix is ugly, however it's stable and it works great. I haven't tested the voltage of the power supply under load, however at no load, it's a stable 24.9V, and the Display can take all the way up to 28 something, i read somewhere. The question is: "<em>What is the voltage at full load, and will the power supply actually be able to handle it?</em>". I'll most likely end up buying to 45W supplies next time i fly to the States and connecting them in parallel.</p>

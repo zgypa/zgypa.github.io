@@ -1,0 +1,29 @@
+---
+layout: post
+title: find and grep Regular Expressions
+date: 2009-11-15 13:30:45.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Mac OS X
+- UNIX
+tags: []
+meta:
+  _edit_last: '10097356'
+author:
+  login: antoniomagni
+  email: wordpress@antoniomagni.com
+  display_name: Toni
+  first_name: Toni
+  last_name: Magni
+permalink: "/2009/11/15/find-and-grep-regular-expressions/"
+---
+<p>Always use the extended version of the regular expressions. In find:</p>
+<pre>find -E ./ -iregex ".*((zip)|(gz))$"</pre>
+<p>is equivalent to</p>
+<pre>find .| grep  -iE ".*((zip)|(gz))$"</pre>
+<p>Use this to search for this pattern or that pattern. The parenthesis to group expressions this way only work in extended (as grep(1) calls them) or modern (as re_format(7) calls them).</p>
+<p>In grep use -i to ignore case. In find, use -iregex to ignore case.</p>
