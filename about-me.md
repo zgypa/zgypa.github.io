@@ -29,5 +29,5 @@ Toni believes mindfulness in the workspace is key to success, a tenet he lives
 through his interest in meditation.
 
 Toni is always interested in collaborating with others, since his projects are
-often too big for him to complete alone. Reach out to email@antoniomagni.com to
-connect!
+often too big for him to complete alone. Reach out to
+[email@antoniomagni.com](mailto:email@antoniomagni.com) to connect!
