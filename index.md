@@ -10,7 +10,7 @@ What i am currently spending time doing, is in [current projects](projects.md).
 
 What i have spent time doing, in CV is in [resume/CV](/resume/)
 
-## About me
+## About toni
 
 Something [about me](about-me.md).
 
