@@ -1,4 +1,5 @@
-theme: jekyll-theme-hacker
+# theme: jekyll-theme-hacker
+theme: jekyll-theme-dinky
 title: toni magni
 description: open standards for medical
 plugins:
