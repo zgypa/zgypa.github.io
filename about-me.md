@@ -2,18 +2,32 @@
 permalink: /about/
 ---
 
-Your ‘About Me’ page should convey:
+## About Toni
 
-* Who you are and what you’re doing
-* How you got there
-* Where you’re looking to go next
+Toni Magni is a biomedical engineer, focused on orthodontic software IT
+infrastructures. Coming from a family of orthodontists (grandfather, father,
+sister), he decided to use his skills primarily in the orthodontic domain.
 
-Use it to describe your credentials, expertise, and goals. What’s the best way
-to start? The following exercises can be helpful in figuring all of that out,
-and will help you determine what to include based on your target audience.
+Toni is fuelled by his passion for eliminating inefficiencies, specifically in
+the medical profession, where software is often not capable of easily exchanging
+data between each other. He considers himself a patiently hard working nerd
+eager to create an infrastructure which software developers, doctors and
+patients can use to fully take advantage of current and future technologies. 
 
-Spend about five minutes on each question. You can use the ‘example’ answers to
-give you an idea of what that answer might sound like in its final form, but be
-sure to use your own words. 
+Believing the involvment of the entire orthodontic community to be necessary in
+order to succeed, his position as clinical instructor at the orthodontic
+department at Case Western Reserve University, plays a key role. Teaching
+student doctors about interoperabilty, then bringing these concepts into life
+into the orthodontic practice, while at the same time collaborating with
+associations and organizations means engaging the entire community.
 
-Continue reading [here](https://www.thebalancecareers.com/how-to-write-about-me-page-examples-4142367)
+Meanwhile at tops Software he vastly improved the productivity of his deptarment
+by developing and implementing software solutions and starting a research and
+development group.
+
+Toni believes mindfulness in the workspace is key to success, a tenet he lives
+through his interest in meditation.
+
+Toni is always interested in collaborating with others, since his projects are
+often too big for him to complete alone. Reach out to email@antoniomagni.com to
+connect!
