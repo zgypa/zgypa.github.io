@@ -27,12 +27,46 @@ author:
   last_name: Magni
 permalink: "/2012/04/17/zeroshell-is-great-but-it-just-keeps-giving-me-problems/"
 ---
-<p><a href="http://commons.wikipedia.org/wiki/File:Netbalancer.gif" target="_blank"><img class="zemanta-img-inserted zemanta-img-configured alignright" title="Zeroshell web interface screenshot Русский: Ск..." alt="Zeroshell web interface screenshot Русский: Ск..." src="{{ site.baseurl }}/assets/2012/04/300px-Netbalancer.gif" width="300" height="205" /></a></p>
-<p>I really like zeroshell, and i have faith in it, but it just keeps giving me headaches. I will have to spend lots of hours to make it work the way i like it to, which is simply zero maintenance. Right now it works, sure, if i keep the web admin interface on all day, and keep fixing when it gets stuck.</p>
-<p>I am running the latest zeroshell version on an ALIX2 with no RTC battery, a satellite connection on ETH01 as Active primary Net Balancer connection and an EDGE connection on USB via UMTS modem as Spare Net Balancer connection, and here are the problems i regularly run into:</p>
+<p><a href="http://commons.wikipedia.org/wiki/File:Netbalancer.gif"
+target="_blank"><img class="zemanta-img-inserted zemanta-img-configured
+alignright" title="Zeroshell web interface screenshot"
+alt="Zeroshell web interface screenshot" src="{{ site.baseurl
+}}/assets/2012/04/300px-Netbalancer.gif" width="300" height="205" /></a></p>
+
+<p>I really like <a
+href="https://en.wikipedia.org/wiki/Zeroshell">Zeroshell</a>, and i have faith
+in it, but it just keeps giving me headaches. I will have to spend lots of hours
+to make it work the way i like it to, which is simply zero maintenance. Right
+now it works, sure, if i keep the web admin interface on all day, and keep
+fixing when it gets stuck.</p>
+
+<p>I am running the latest zeroshell version on an ALIX2 with no RTC battery, a
+satellite connection on ETH01 as Active primary Net Balancer connection and an
+EDGE connection on USB via UMTS modem as Spare Net Balancer connection, and here
+are the problems i regularly run into:</p>
+
 <ol>
-<li>Net Balancer behaves like Load Balancing, even when in Failover mode. This happens sometimes when one of the two connections fail, then when they come back up, both connections stay active, and are so in routing table as well. To fix this, i have to switch to Load Balancing, Save, then switch to Failover, then save.</li>
-<li>Machine doesn't respond for about 30-40 minutes after it has initially started. The load avg is around 30. This seems to be linked to the fact that i don't have an RTC battery, so the clock resets to jan 1 2000, and bandwithd.</li>
-<li>Satellite DHCP connection sometimes goes down. In these situations, i have to go in Setup -&gt;Network and refresh the DHCP lease, and all works again.</li>
-<li>Satellite DHCP connection sometimes fail to activate. This morning, for example, i woke up and turned on the satellite modem (i had left the ALIX on all night to avoid the 30-40 minute hi load situation described above). After having breakfast, zeroshell had still not recognized ETH01 as being active, even though all the LEDs on the ALIX where OK. A simple de-activating/reactivating of the interface fixed the problem.</li>
+
+<li>Net Balancer behaves like Load Balancing, even when in Failover mode. This
+happens sometimes when one of the two connections fail, then when they come back
+up, both connections stay active, and are so in routing table as well. To fix
+this, i have to switch to Load Balancing, Save, then switch to Failover, then
+save.</li>
+
+<li>Machine doesn't respond for about 30-40 minutes after it has initially
+started. The load avg is around 30. This seems to be linked to the fact that i
+don't have an RTC battery, so the clock resets to jan 1 2000, and
+bandwithd.</li>
+
+<li>Satellite DHCP connection sometimes goes down. In these situations, i have
+to go in Setup -&gt;Network and refresh the DHCP lease, and all works
+again.</li>
+
+<li>Satellite DHCP connection sometimes fail to activate. This morning, for
+example, i woke up and turned on the satellite modem (i had left the ALIX on all
+night to avoid the 30-40 minute hi load situation described above). After having
+breakfast, zeroshell had still not recognized ETH01 as being active, even though
+all the LEDs on the ALIX where OK. A simple de-activating/reactivating of the
+interface fixed the problem.</li>
+
 </ol>
