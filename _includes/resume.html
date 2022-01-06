@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>resume2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+<!--
+
+userAgent = window.navigator.userAgent;
+browserVers = parseInt(userAgent.charAt(userAgent.indexOf("/")+1),10);
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function findElement(n,ly) {
+	if (browserVers < 4)		return document[n];
+	var curDoc = ly ? ly.document : document;
+	var elem = curDoc[n];
+	if (!elem) {
+		for (var i=0;i<curDoc.layers.length;i++) {
+			elem = findElement(n,curDoc.layers[i]);
+			if (elem) return elem;
+		}
+	}
+	return elem;
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		var img;
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			img = null;
+			if (document.layers) {
+				img = findElement(changeImages.arguments[i],0);
+			}
+			else {
+				img = document.images[changeImages.arguments[i]];
+			}
+			if (img) {
+				img.src = changeImages.arguments[i+1];
+			}
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		entrance_over = newImage("img/entrance-over.jpg");
+		addressbook_over = newImage("img/addressbook-over.jpg");
+		articles_over = newImage("img/articles-over.jpg");
+		contacts_over = newImage("img/contacts-over.jpg");
+		education_over = newImage("img/education-over.jpg");
+		family_over = newImage("img/family-over.jpg");
+		guestbook_over = newImage("img/guestbook-over.jpg");
+		members_over = newImage("img/members-over.jpg");
+		music_over = newImage("img/music-over.jpg");
+		projects_over = newImage("img/projects-over.jpg");
+		resume_over = newImage("img/resume-over.jpg");
+		sitelife_over = newImage("img/sitelife-over.jpg");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script>
+<style type="text/css">
+<!--
+
+div.Table_01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:800px;
+	height:825px;
+}
+
+div.crumbbg_ {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:800px;
+	height:25px;
+}
+
+div.header_ {
+	position:absolute;
+	left:0px;
+	top:25px;
+	width:800px;
+	height:118px;
+}
+
+div.entrance_ {
+	position:absolute;
+	left:0px;
+	top:143px;
+	width:120px;
+	height:90px;
+}
+
+div.contentpane_ {
+	position:absolute;
+	left:120px;
+	top:143px;
+	width:680px;
+	height:682px;
+}
+
+div.addressbook_ {
+	position:absolute;
+	left:0px;
+	top:233px;
+	width:120px;
+	height:45px;
+}
+
+div.articles_ {
+	position:absolute;
+	left:0px;
+	top:278px;
+	width:120px;
+	height:45px;
+}
+
+div.contacts_ {
+	position:absolute;
+	left:0px;
+	top:323px;
+	width:120px;
+	height:45px;
+}
+
+div.education_ {
+	position:absolute;
+	left:0px;
+	top:368px;
+	width:120px;
+	height:45px;
+}
+
+div.family_ {
+	position:absolute;
+	left:0px;
+	top:413px;
+	width:120px;
+	height:45px;
+}
+
+div.guestbook_ {
+	position:absolute;
+	left:0px;
+	top:458px;
+	width:120px;
+	height:45px;
+}
+
+div.members_ {
+	position:absolute;
+	left:0px;
+	top:503px;
+	width:120px;
+	height:45px;
+}
+
+div.music_ {
+	position:absolute;
+	left:0px;
+	top:548px;
+	width:120px;
+	height:45px;
+}
+
+div.projects_ {
+	position:absolute;
+	left:0px;
+	top:593px;
+	width:120px;
+	height:45px;
+}
+
+div.resume_ {
+	position:absolute;
+	left:0px;
+	top:638px;
+	width:120px;
+	height:45px;
+}
+
+div.sitelife_ {
+	position:absolute;
+	left:0px;
+	top:683px;
+	width:120px;
+	height:45px;
+}
+
+div.nav-bottom_ {
+	position:absolute;
+	left:0px;
+	top:728px;
+	width:120px;
+	height:97px;
+}
+
+-->
+</style>
+</head>
+<body onload="preloadImages();" style="background-color:#1D3332;">
+<div class="Table_01">
+	<div class="crumbbg_">
+		<img id="crumbbg" src="img/crumbbg.jpg" width="800" height="25" alt="" />
+	</div>
+	<div class="header_">
+		<img id="header" src="img/header.jpg" width="800" height="118" alt="" />
+	</div>
+	<div class="entrance_">
+		<a href="#"
+			onmouseover="changeImages('entrance', 'img/entrance-over.jpg'); return true;"
+			onmouseout="changeImages('entrance', 'img/entrance.jpg'); return true;"
+			onmousedown="changeImages('entrance', 'img/entrance-over.jpg'); return true;"
+			onmouseup="changeImages('entrance', 'img/entrance-over.jpg'); return true;">
+			<img name="entrance" id="entrance" src="img/entrance.jpg" width="120" height="90" border="0" alt="Entrance" /></a>
+	</div>
+	<div class="contentpane_">
+		<img id="contentpane" src="img/contentpane.jpg" width="680" height="682" alt="" />
+	</div>
+	<div class="addressbook_">
+		<a href="#"
+			onmouseover="changeImages('addressbook', 'img/addressbook-over.jpg'); return true;"
+			onmouseout="changeImages('addressbook', 'img/addressbook.jpg'); return true;"
+			onmousedown="changeImages('addressbook', 'img/addressbook-over.jpg'); return true;"
+			onmouseup="changeImages('addressbook', 'img/addressbook-over.jpg'); return true;">
+			<img name="addressbook" id="addressbook" src="img/addressbook.jpg" width="120" height="45" border="0" alt="Addressbook" /></a>
+	</div>
+	<div class="articles_">
+		<a href="#"
+			onmouseover="changeImages('articles', 'img/articles-over.jpg'); return true;"
+			onmouseout="changeImages('articles', 'img/articles.jpg'); return true;"
+			onmousedown="changeImages('articles', 'img/articles-over.jpg'); return true;"
+			onmouseup="changeImages('articles', 'img/articles-over.jpg'); return true;">
+			<img name="articles" id="articles" src="img/articles.jpg" width="120" height="45" border="0" alt="Articles" /></a>
+	</div>
+	<div class="contacts_">
+		<a href="#"
+			onmouseover="changeImages('contacts', 'img/contacts-over.jpg'); return true;"
+			onmouseout="changeImages('contacts', 'img/contacts.jpg'); return true;"
+			onmousedown="changeImages('contacts', 'img/contacts-over.jpg'); return true;"
+			onmouseup="changeImages('contacts', 'img/contacts-over.jpg'); return true;">
+			<img name="contacts" id="contacts" src="img/contacts.jpg" width="120" height="45" border="0" alt="Contacts" /></a>
+	</div>
+	<div class="education_">
+		<a href="#"
+			onmouseover="changeImages('education', 'img/education-over.jpg'); return true;"
+			onmouseout="changeImages('education', 'img/education.jpg'); return true;"
+			onmousedown="changeImages('education', 'img/education-over.jpg'); return true;"
+			onmouseup="changeImages('education', 'img/education-over.jpg'); return true;">
+			<img name="education" id="education" src="img/education.jpg" width="120" height="45" border="0" alt="Education" /></a>
+	</div>
+	<div class="family_">
+		<a href="#"
+			onmouseover="changeImages('family', 'img/family-over.jpg'); return true;"
+			onmouseout="changeImages('family', 'img/family.jpg'); return true;"
+			onmousedown="changeImages('family', 'img/family-over.jpg'); return true;"
+			onmouseup="changeImages('family', 'img/family-over.jpg'); return true;">
+			<img name="family" id="family" src="img/family.jpg" width="120" height="45" border="0" alt="Family" /></a>
+	</div>
+	<div class="guestbook_">
+		<a href="#"
+			onmouseover="changeImages('guestbook', 'img/guestbook-over.jpg'); return true;"
+			onmouseout="changeImages('guestbook', 'img/guestbook.jpg'); return true;"
+			onmousedown="changeImages('guestbook', 'img/guestbook-over.jpg'); return true;"
+			onmouseup="changeImages('guestbook', 'img/guestbook-over.jpg'); return true;">
+			<img name="guestbook" id="guestbook" src="img/guestbook.jpg" width="120" height="45" border="0" alt="Guestbook" /></a>
+	</div>
+	<div class="members_">
+		<a href="#"
+			onmouseover="changeImages('members', 'img/members-over.jpg'); return true;"
+			onmouseout="changeImages('members', 'img/members.jpg'); return true;"
+			onmousedown="changeImages('members', 'img/members-over.jpg'); return true;"
+			onmouseup="changeImages('members', 'img/members-over.jpg'); return true;">
+			<img name="members" id="members" src="img/members.jpg" width="120" height="45" border="0" alt="Members" /></a>
+	</div>
+	<div class="music_">
+		<a href="#"
+			onmouseover="changeImages('music', 'img/music-over.jpg'); return true;"
+			onmouseout="changeImages('music', 'img/music.jpg'); return true;"
+			onmousedown="changeImages('music', 'img/music-over.jpg'); return true;"
+			onmouseup="changeImages('music', 'img/music-over.jpg'); return true;">
+			<img name="music" id="music" src="img/music.jpg" width="120" height="45" border="0" alt="Music" /></a>
+	</div>
+	<div class="projects_">
+		<a href="#"
+			onmouseover="changeImages('projects', 'img/projects-over.jpg'); return true;"
+			onmouseout="changeImages('projects', 'img/projects.jpg'); return true;"
+			onmousedown="changeImages('projects', 'img/projects-over.jpg'); return true;"
+			onmouseup="changeImages('projects', 'img/projects-over.jpg'); return true;">
+			<img name="projects" id="projects" src="img/projects.jpg" width="120" height="45" border="0" alt="Projects" /></a>
+	</div>
+	<div class="resume_">
+		<a href="#"
+			onmouseover="changeImages('resume', 'img/resume-over.jpg'); return true;"
+			onmouseout="changeImages('resume', 'img/resume.jpg'); return true;"
+			onmousedown="changeImages('resume', 'img/resume-over.jpg'); return true;"
+			onmouseup="changeImages('resume', 'img/resume-over.jpg'); return true;">
+			<img name="resume" id="resume" src="img/resume.jpg" width="120" height="45" border="0" alt="Resume" /></a>
+	</div>
+	<div class="sitelife_">
+		<a href="#"
+			onmouseover="changeImages('sitelife', 'img/sitelife-over.jpg'); return true;"
+			onmouseout="changeImages('sitelife', 'img/sitelife.jpg'); return true;"
+			onmousedown="changeImages('sitelife', 'img/sitelife-over.jpg'); return true;"
+			onmouseup="changeImages('sitelife', 'img/sitelife-over.jpg'); return true;">
+			<img name="sitelife" id="sitelife" src="img/sitelife.jpg" width="120" height="45" border="0" alt="Sitelife" /></a>
+	</div>
+	<div class="nav-bottom_">
+		<img id="nav_bottom" src="img/nav_bottom.jpg" width="120" height="97" alt="" />
+	</div>
+</div>
+</body>
+</html>
