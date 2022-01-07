@@ -1,14 +1,18 @@
 ---
-title: CV Toni Magni
+title: Curriculum Vitae
 permalink: /resume/
+layout: duckone
+style: resume
 ---
 
-## Curriculum/Resume
+## Standards Based
 
 Being so adimate about informatics standards, i couldn't but use a standard also
 for the CV: i have used the EuropassCV format. The PDF was generated from the
 [europass European Union](https://europa.eu/europass/) website and it includes
 the CV in Europass XML format. You can extract the XML with `pdfdetach`.
+
+## Download
 
 [Curriculum Vitae PDF](Toni_Magni_CV.pdf)
 
