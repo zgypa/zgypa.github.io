@@ -1,0 +1,22 @@
+#contentpane {
+    width: 680px;
+    height: 682px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+#members {
+    background-color: #8CB37B;
+}
+
+#sitelife {
+    background-color: #402D32;
+}
+
+#Table_01 {
+    width: 800px;
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
