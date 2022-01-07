@@ -1,0 +1,217 @@
+#site_title_ {
+    font-style: italic;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#contentpane {
+    width: 680px;
+    height: 682px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+#addressbook {
+    background-color: #2A3D52;
+}
+
+#articles {
+    background-color: #4D1E21;
+}
+
+#contacts {
+    background-color: #2A3D52;
+}
+
+#education {
+    background-color: #6C5279;
+}
+
+#family {
+    background-color: #8C6723;
+}
+
+#guestbook {
+    background-color: #67806A;
+}
+
+#members {
+    background-color: #8CB37B;
+}
+
+#music {
+    background-color: #805337;
+}
+
+#projects {
+    background-color: #CCA66E;
+}
+
+#resume {
+    background-color: #1D3332;
+}
+
+#sitelife {
+    background-color: #402D32;
+}
+
+#Table_01 {
+    width: 800px;
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+td {
+    border-spacing: 0px;
+}
+
+div.Table_01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:800px;
+	height:825px;
+}
+
+div.crumbbg_ {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:800px;
+	height:25px;
+}
+
+div.header_ {
+	position:absolute;
+	left:0px;
+	top:25px;
+	width:800px;
+	height:118px;
+}
+
+div.entrance_ {
+	position:absolute;
+	left:0px;
+	top:143px;
+	width:120px;
+	height:90px;
+}
+
+div.contentpane_background_ {
+	position:absolute;
+	left:120px;
+	top:143px;
+	width:680px;
+	height:682px;
+}
+
+div.contentpane_head_ {
+	width:420px;
+	height:63px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+div.contentpane_text_ {
+    padding: 10px;
+    font-family: monospace;
+}
+
+div.addressbook_ {
+	position:absolute;
+	left:0px;
+	top:233px;
+	width:120px;
+	height:45px;
+}
+
+div.articles_ {
+	position:absolute;
+	left:0px;
+	top:278px;
+	width:120px;
+	height:45px;
+}
+
+div.contacts_ {
+	position:absolute;
+	left:0px;
+	top:323px;
+	width:120px;
+	height:45px;
+}
+
+div.education_ {
+	position:absolute;
+	left:0px;
+	top:368px;
+	width:120px;
+	height:45px;
+}
+
+div.family_ {
+	position:absolute;
+	left:0px;
+	top:413px;
+	width:120px;
+	height:45px;
+}
+
+div.guestbook_ {
+	position:absolute;
+	left:0px;
+	top:458px;
+	width:120px;
+	height:45px;
+}
+
+div.members_ {
+	position:absolute;
+	left:0px;
+	top:503px;
+	width:120px;
+	height:45px;
+}
+
+div.music_ {
+	position:absolute;
+	left:0px;
+	top:548px;
+	width:120px;
+	height:45px;
+}
+
+div.projects_ {
+	position:absolute;
+	left:0px;
+	top:593px;
+	width:120px;
+	height:45px;
+}
+
+div.resume_ {
+	position:absolute;
+	left:0px;
+	top:638px;
+	width:120px;
+	height:45px;
+}
+
+div.sitelife_ {
+	position:absolute;
+	left:0px;
+	top:683px;
+	width:120px;
+	height:45px;
+}
+
+div.nav-bottom_ {
+	position:absolute;
+	left:0px;
+	top:728px;
+	width:120px;
+	height:97px;
+}
+
