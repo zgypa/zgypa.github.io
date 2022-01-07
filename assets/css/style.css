@@ -63,6 +63,10 @@
     border-collapse: collapse;
 }
 
+blockquote {
+    font-style: italic;
+}
+
 td {
     border-spacing: 0px;
 }
