@@ -1,3 +1,9 @@
+#site_title_ {
+    font-style: italic;
+    text-align: center;
+    opacity: 0.5;
+}
+
 #contentpane {
     width: 680px;
     height: 682px;
