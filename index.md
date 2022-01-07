@@ -1,7 +1,7 @@
 ---
-title: welcome
+title: Entrance
 layout: duckone
-style: sitelife
+style: projects
 ---
 
 ## Current Projects

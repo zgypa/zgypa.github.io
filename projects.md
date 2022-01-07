@@ -2,9 +2,9 @@
 permalink: /projects/
 layout: duckone
 style: projects
+title: Current Projects
 ---
 
-## Current Projects
 
 This is a list of projects i am currently engaged with.
 

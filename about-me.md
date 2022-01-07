@@ -2,9 +2,8 @@
 permalink: /contacts/
 layout: duckone
 style: members
+title: About Toni
 ---
-
-## About Toni
 
 Toni Magni is a biomedical engineer, focused on orthodontic software IT
 infrastructures. Coming from a family of orthodontists (grandfather, father,
