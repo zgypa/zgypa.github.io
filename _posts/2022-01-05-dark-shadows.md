@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: duckone
+style: sitelife
 title: Dark Shadows
 author: 
  display_name: Toni

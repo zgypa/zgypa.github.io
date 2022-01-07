@@ -109,7 +109,7 @@ div.contentpane_background_ {
 
 div.contentpane_head_ {
 	width:420px;
-	height:63px;
+	height: 84px;
     padding: 10px;
     font-family: monospace;
 }
@@ -117,6 +117,8 @@ div.contentpane_head_ {
 div.contentpane_text_ {
     padding: 10px;
     font-family: monospace;
+    overflow: auto;
+    height: 557px;
 }
 
 div.addressbook_ {
