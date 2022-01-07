@@ -1,24 +1,17 @@
 ---
-title: Entrance
+title: _
 layout: duckone
 style: projects
 ---
 
-## Current Projects
+## interoperability
 
-What i am currently spending time doing, is in [current projects](projects.md).
+i believe that we are stuck in the 90s, as far as computers and doctors are concerned.
 
-## Curriculum/Resume
+## infrastructure
 
-What i have spent time doing, in CV is in [resume/CV](/resume/)
+has always been my passion: i like what make things and people tick
 
-## About toni
+## actor
 
-Something [about me](about-me.md).
-
-## The lowercase "i" pronoun
-
-It is not by accident that i spell "i" lowercase. This is a personal preference.
-I don't know of any other language that capitalizes the first person singular
-pronoun, and i don't understand the reason to do so. As if i didn't have enough
-ego, that i need to capitalize my pronoun... Feels weird.
+is part of my personality.
