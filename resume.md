@@ -1,6 +1,8 @@
 ---
 title: CV Toni Magni
 permalink: /resume/
+layout: duckone
+style: resume
 ---
 
 ## Curriculum/Resume

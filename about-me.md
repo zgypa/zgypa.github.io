@@ -1,5 +1,7 @@
 ---
-permalink: /about/
+permalink: /contacts/
+layout: duckone
+style: members
 ---
 
 ## About Toni

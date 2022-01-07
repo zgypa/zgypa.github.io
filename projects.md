@@ -1,3 +1,9 @@
+---
+permalink: /projects/
+layout: duckone
+style: projects
+---
+
 ## Current Projects
 
 This is a list of projects i am currently engaged with.

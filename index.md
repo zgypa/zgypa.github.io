@@ -1,6 +1,10 @@
 ---
 title: may all beings be happy
+layout: duckone
+style: sitelife
 ---
+
+# {{ page.title }}
 
 ## Current Projects
 
