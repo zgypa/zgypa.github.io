@@ -93,12 +93,24 @@ div.entrance_ {
 	height:90px;
 }
 
-div.contentpane_ {
+div.contentpane_background_ {
 	position:absolute;
 	left:120px;
 	top:143px;
 	width:680px;
 	height:682px;
+}
+
+div.contentpane_head_ {
+	width:420px;
+	height:63px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+div.contentpane_text_ {
+    padding: 10px;
+    font-family: monospace;
 }
 
 div.addressbook_ {
