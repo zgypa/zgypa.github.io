@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>contacts2</title>
+<title>{{ page.title }}</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="/assets/css/style.css">
 <script type="text/javascript">
@@ -76,18 +76,23 @@ function preloadImages() {
 		<img id="header" src="/assets/{{ page.style }}/img/header.jpg" width="800" height="118" alt="" />
 	</div>
 	<div class="entrance_">
-		<a href="#"
+		<a href="/"
 			onmouseover="changeImages('entrance', '/assets/{{ page.style }}/img/entrance-over.jpg'); return true;"
 			onmouseout="changeImages('entrance', '/assets/{{ page.style }}/img/entrance.jpg'); return true;"
 			onmousedown="changeImages('entrance', '/assets/{{ page.style }}/img/entrance-over.jpg'); return true;"
 			onmouseup="changeImages('entrance', '/assets/{{ page.style }}/img/entrance-over.jpg'); return true;">
 			<img name="entrance" id="entrance" src="/assets/{{ page.style }}/img/entrance.jpg" width="120" height="90" border="0" alt="Entrance" /></a>
 	</div>
-	<div class="contentpane_">
-		<img id="contentpane" src="/assets/{{ page.style }}/img/contentpane.jpg" width="680" height="682" alt="" />
+	<div class="contentpane_background_" style="background-image: url(/assets/{{ page.style }}/img/contentpane.jpg);">
+		<div class="contentpane_head_">
+			<h1>{{ page.title }}</h1>
+		</div>
+		<div class="contentpane_text_">
+			{{ content }}
+		</div>
 	</div>
 	<div class="addressbook_">
-		<a href="#"
+		<a href="/addressbook/"
 			onmouseover="changeImages('addressbook', '/assets/{{ page.style }}/img/addressbook-over.jpg'); return true;"
 			onmouseout="changeImages('addressbook', '/assets/{{ page.style }}/img/addressbook.jpg'); return true;"
 			onmousedown="changeImages('addressbook', '/assets/{{ page.style }}/img/addressbook-over.jpg'); return true;"
@@ -95,7 +100,7 @@ function preloadImages() {
 			<img name="addressbook" id="addressbook" src="/assets/{{ page.style }}/img/addressbook.jpg" width="120" height="45" border="0" alt="Addressbook" /></a>
 	</div>
 	<div class="articles_">
-		<a href="#"
+		<a href="/articles/"
 			onmouseover="changeImages('articles', '/assets/{{ page.style }}/img/articles-over.jpg'); return true;"
 			onmouseout="changeImages('articles', '/assets/{{ page.style }}/img/articles.jpg'); return true;"
 			onmousedown="changeImages('articles', '/assets/{{ page.style }}/img/articles-over.jpg'); return true;"
@@ -103,7 +108,7 @@ function preloadImages() {
 			<img name="articles" id="articles" src="/assets/{{ page.style }}/img/articles.jpg" width="120" height="45" border="0" alt="Articles" /></a>
 	</div>
 	<div class="contacts_">
-		<a href="#"
+		<a href="/contacts/"
 			onmouseover="changeImages('contacts', '/assets/{{ page.style }}/img/contacts-over.jpg'); return true;"
 			onmouseout="changeImages('contacts', '/assets/{{ page.style }}/img/contacts.jpg'); return true;"
 			onmousedown="changeImages('contacts', '/assets/{{ page.style }}/img/contacts-over.jpg'); return true;"
@@ -111,7 +116,7 @@ function preloadImages() {
 			<img name="contacts" id="contacts" src="/assets/{{ page.style }}/img/contacts.jpg" width="120" height="45" border="0" alt="Contacts" /></a>
 	</div>
 	<div class="education_">
-		<a href="#"
+		<a href="/education/"
 			onmouseover="changeImages('education', '/assets/{{ page.style }}/img/education-over.jpg'); return true;"
 			onmouseout="changeImages('education', '/assets/{{ page.style }}/img/education.jpg'); return true;"
 			onmousedown="changeImages('education', '/assets/{{ page.style }}/img/education-over.jpg'); return true;"
@@ -119,7 +124,7 @@ function preloadImages() {
 			<img name="education" id="education" src="/assets/{{ page.style }}/img/education.jpg" width="120" height="45" border="0" alt="Education" /></a>
 	</div>
 	<div class="family_">
-		<a href="#"
+		<a href="/family/"
 			onmouseover="changeImages('family', '/assets/{{ page.style }}/img/family-over.jpg'); return true;"
 			onmouseout="changeImages('family', '/assets/{{ page.style }}/img/family.jpg'); return true;"
 			onmousedown="changeImages('family', '/assets/{{ page.style }}/img/family-over.jpg'); return true;"
@@ -127,7 +132,7 @@ function preloadImages() {
 			<img name="family" id="family" src="/assets/{{ page.style }}/img/family.jpg" width="120" height="45" border="0" alt="Family" /></a>
 	</div>
 	<div class="guestbook_">
-		<a href="#"
+		<a href="/guestbook/"
 			onmouseover="changeImages('guestbook', '/assets/{{ page.style }}/img/guestbook-over.jpg'); return true;"
 			onmouseout="changeImages('guestbook', '/assets/{{ page.style }}/img/guestbook.jpg'); return true;"
 			onmousedown="changeImages('guestbook', '/assets/{{ page.style }}/img/guestbook-over.jpg'); return true;"
@@ -135,7 +140,7 @@ function preloadImages() {
 			<img name="guestbook" id="guestbook" src="/assets/{{ page.style }}/img/guestbook.jpg" width="120" height="45" border="0" alt="Guestbook" /></a>
 	</div>
 	<div class="members_">
-		<a href="#"
+		<a href="/members/"
 			onmouseover="changeImages('members', '/assets/{{ page.style }}/img/members-over.jpg'); return true;"
 			onmouseout="changeImages('members', '/assets/{{ page.style }}/img/members.jpg'); return true;"
 			onmousedown="changeImages('members', '/assets/{{ page.style }}/img/members-over.jpg'); return true;"
@@ -143,7 +148,7 @@ function preloadImages() {
 			<img name="members" id="members" src="/assets/{{ page.style }}/img/members.jpg" width="120" height="45" border="0" alt="Members" /></a>
 	</div>
 	<div class="music_">
-		<a href="#"
+		<a href="/music/"
 			onmouseover="changeImages('music', '/assets/{{ page.style }}/img/music-over.jpg'); return true;"
 			onmouseout="changeImages('music', '/assets/{{ page.style }}/img/music.jpg'); return true;"
 			onmousedown="changeImages('music', '/assets/{{ page.style }}/img/music-over.jpg'); return true;"
@@ -151,7 +156,7 @@ function preloadImages() {
 			<img name="music" id="music" src="/assets/{{ page.style }}/img/music.jpg" width="120" height="45" border="0" alt="Music" /></a>
 	</div>
 	<div class="projects_">
-		<a href="#"
+		<a href="/projects/"
 			onmouseover="changeImages('projects', '/assets/{{ page.style }}/img/projects-over.jpg'); return true;"
 			onmouseout="changeImages('projects', '/assets/{{ page.style }}/img/projects.jpg'); return true;"
 			onmousedown="changeImages('projects', '/assets/{{ page.style }}/img/projects-over.jpg'); return true;"
@@ -159,7 +164,7 @@ function preloadImages() {
 			<img name="projects" id="projects" src="/assets/{{ page.style }}/img/projects.jpg" width="120" height="45" border="0" alt="Projects" /></a>
 	</div>
 	<div class="resume_">
-		<a href="#"
+		<a href="/resume/"
 			onmouseover="changeImages('resume', '/assets/{{ page.style }}/img/resume-over.jpg'); return true;"
 			onmouseout="changeImages('resume', '/assets/{{ page.style }}/img/resume.jpg'); return true;"
 			onmousedown="changeImages('resume', '/assets/{{ page.style }}/img/resume-over.jpg'); return true;"
@@ -167,7 +172,7 @@ function preloadImages() {
 			<img name="resume" id="resume" src="/assets/{{ page.style }}/img/resume.jpg" width="120" height="45" border="0" alt="Resume" /></a>
 	</div>
 	<div class="sitelife_">
-		<a href="#"
+		<a href="/sitelife/"
 			onmouseover="changeImages('sitelife', '/assets/{{ page.style }}/img/sitelife-over.jpg'); return true;"
 			onmouseout="changeImages('sitelife', '/assets/{{ page.style }}/img/sitelife.jpg'); return true;"
 			onmousedown="changeImages('sitelife', '/assets/{{ page.style }}/img/sitelife-over.jpg'); return true;"
