@@ -267,10 +267,10 @@ GEM
     zeitwerk (2.5.1)
 
 PLATFORMS
-  x86_64-linux
+  ruby
 
 DEPENDENCIES
   github-pages
 
 BUNDLED WITH
-   2.3.3
+   2.1.2

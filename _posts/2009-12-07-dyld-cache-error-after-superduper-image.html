@@ -1,0 +1,34 @@
+---
+layout: duckone
+style: sitelife
+title: dyld cache error after SuperDuper! image.
+date: 2009-12-07 04:09:42.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Mac OS X
+tags: []
+meta:
+  _edit_last: '10097356'
+author:
+  login: antoniomagni
+  email: wordpress@antoniomagni.com
+  display_name: Toni
+  first_name: Toni
+  last_name: Magni
+permalink: "/2009/12/07/dyld-cache-error-after-superduper-image/"
+---
+<p>This is what happened:</p>
+<ol>
+<li>I backup up internal HardDisk to USB drive</li>
+<li>I booted off of USB drive with 10.5</li>
+<li>I mirror copied with SuperDuper! from a FireWire drive to internal HardDisk</li>
+<li>I didn't reboot imeediately after i was done.</li>
+<li>When i went to reboot, the computer said it couldn't shut down yet, as it was rebuilding some kind of cash.</li>
+<li>I listened to the hard drive, which sounded completely silent, then i forced a shutdown.</li>
+</ol>
+<p>I think what was going on was that OS 10.5 had recognized that on the internal boot drive there was something different than what was actually running in memory. Don't know why. Probably there is somewhere  in the code a reference to the physical drive, instead of the mount point, or something like that. So it started rebuilding the dyld cache on the internal hard disk which was a 10.6. So we now had a 10.5 cache on 10.6 filesystem.</p>
+<p>The easiest fix was deleting all /private/var/db/dyld/*cache*</p>

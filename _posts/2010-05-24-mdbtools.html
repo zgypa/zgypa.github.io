@@ -1,0 +1,71 @@
+---
+layout: duckone
+style: sitelife
+title: mdbtools
+date: 2010-05-24 22:40:02.000000000 +02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Mac OS X
+- UNIX
+tags: []
+meta:
+  _edit_last: '10097356'
+author:
+  login: antoniomagni
+  email: wordpress@antoniomagni.com
+  display_name: Toni
+  first_name: Toni
+  last_name: Magni
+permalink: "/2010/05/24/mdbtools/"
+---
+<p>I'm trying to get mdbtools to work on OS X 10.6 and/or amd64 linux. It's so strange how its distributed by debian and macports, compiles fine, however gives obnoxious runtime errors.</p>
+<p>The errors i get are the following:</p>
+<pre style="padding-left:30px;">$ mdb-ver file.mdb
+JET3</pre>
+<pre style="padding-left:30px;">$ mdb-tables -1 file.mdb
+Segmentation fault</pre>
+<pre style="padding-left:30px;">$ mdb-export file.mdb table
+Segmentation fault</pre>
+<p>At the beginning i thought it had to do with OS X, however, when i ran into the same symptoms on Linux 2.6.18-6-amd64, i started thinking it could have been a 64bit issue. When Brian Bruns first wrote it, he probably didn't prepare the code for 64bit architecture, making common assumptions such as <em>an int is as big as a long or pointer</em>.</p>
+<p>I found some help here:</p>
+<ul>
+<li><a href="http://developers.sun.com/solaris/articles/ILP32toLP64Issues.html">Converting 32-bit Applications Into 64-bit Applications: Things to Consider</a></li>
+<li><a href="http://www.splint.org/">Splint Home Page</a></li>
+<li><a href="http://www.splint.org/"></a><a href="http://developer.apple.com/mac/library/documentation/Darwin/Reference/ManPages/man3/libgmalloc.3.html">libgmalloc(3) Mac OS X Developer Tools Manual Page</a></li>
+</ul>
+<h2>Splint</h2>
+<p>Splint is a utility that will check code for specific issues. In this case, i could use it to make sure that the size of long integers and pointers is 64 bits and the size of plain integers is 32 bits. When using splint, i found these flags to work (i put them in the .splintrc, since that was really the only thing i was using splint for):</p>
+<pre style="padding-left:30px;">-preproc
++posixlib
+-I /opt/local/include/glib-1.2/
+-I /opt/local/lib/glib/include/
+-I ~/tmp/mdbtools_debug_attempt/mdbtools-0.6pre1/include</pre>
+<h2>gdb</h2>
+<p>I played with gdb and libgmalloc, but not sure if i logged the work i did. When i run it now on linux, i get:</p>
+<pre style="padding-left:30px;">(gdb) run -1 OMS.MDB
+Starting program: /usr/bin/mdb-tables -1 OMS.MDB
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+[Thread debugging using libthread_db enabled]
+[New Thread 47589690023856 (LWP 14731)]
+(no debugging symbols found)
+Program received signal SIGSEGV, Segmentation fault.
+[Switching to Thread 47589690023856 (LWP 14731)]
+0x00002b48564e1fa4 in __gconv_get_alias_db () from /lib/libc.so.6
+(gdb) cont
+Continuing.
+Cannot find user-level thread for LWP 14731: generic error
+(gdb) cont
+Continuing.
+Cannot fetch general-purpose registers for thread 47589690023856: generic error
+(gdb) cont
+Cannot fetch general-purpose registers for thread 47589690023856: generic error
+...</pre>
