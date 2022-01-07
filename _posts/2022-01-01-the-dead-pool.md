@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: duckone
+style: sitelife
 title: The Dead Pool
 author: 
  display_name: Toni

@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: duckone
+style: sitelife
 title: Independence Day
 author: 
  display_name: Toni
