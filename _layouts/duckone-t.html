@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{{ page.style }}2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type="text/javascript">
+// <!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		entrance_over = newImage("/assets/{{ page.style }}/img/entrance-over.jpg");
+		addressbook_over = newImage("/assets/{{ page.style }}/img/addressbook-over.jpg");
+		articles_over = newImage("/assets/{{ page.style }}/img/articles-over.jpg");
+		contacts_over = newImage("/assets/{{ page.style }}/img/contacts-over.jpg");
+		education_over = newImage("/assets/{{ page.style }}/img/education-over.jpg");
+		family_over = newImage("/assets/{{ page.style }}/img/family-over.jpg");
+		guestbook_over = newImage("/assets/{{ page.style }}/img/guestbook-over.jpg");
+		members_over = newImage("/assets/{{ page.style }}/img/members-over.jpg");
+		music_over = newImage("/assets/{{ page.style }}/img/music-over.jpg");
+		projects_over = newImage("/assets/{{ page.style }}/img/projects-over.jpg");
+		resume_over = newImage("/assets/{{ page.style }}/img/resume-over.jpg");
+		{{ page.style }}_over = newImage("/assets/{{ page.style }}/img/{{ page.style }}-over.jpg");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script>
+</head>
+<body id="{{ page.style }}" onload="preloadImages();">
+<table id="Table_01">
+	<tr>
+		<td colspan="2">
+			<img id="crumbbg" src="/assets/{{ page.style }}/img/crumbbg.jpg" width="800" height="25" alt="" /></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img id="header" src="/assets/{{ page.style }}/img/header.jpg" width="800" height="118" alt="" /></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="/"
+				onmouseover="changeImages('entrance', '/assets/{{ page.style }}/img/entrance-over.jpg'); return true;"
+				onmouseout="changeImages('entrance', '/assets/{{ page.style }}/img/entrance.jpg'); return true;"
+				onmousedown="changeImages('entrance', '/assets/{{ page.style }}/img/entrance-over.jpg'); return true;"
+				onmouseup="changeImages('entrance', '/assets/{{ page.style }}/img/entrance-over.jpg'); return true;">
+				<img name="entrance" id="entrance" src="/assets/{{ page.style }}/img/entrance.jpg" width="120" height="90" alt="Entrance" /></a></td>
+		<td rowspan="13" id="contentpane" style="background-image: url(/assets/{{ page.style }}/img/contentpane.jpg);">
+			{{ content }}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="/addressbook/"
+				onmouseover="changeImages('addressbook', '/assets/{{ page.style }}/img/addressbook-over.jpg'); return true;"
+				onmouseout="changeImages('addressbook', '/assets/{{ page.style }}/img/addressbook.jpg'); return true;"
+				onmousedown="changeImages('addressbook', '/assets/{{ page.style }}/img/addressbook-over.jpg'); return true;"
+				onmouseup="changeImages('addressbook', '/assets/{{ page.style }}/img/addressbook-over.jpg'); return true;">
+				<img name="addressbook" id="addressbook" src="/assets/{{ page.style }}/img/addressbook.jpg" width="120" height="45" alt="Addressbook" /></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="/articles/"
+				onmouseover="changeImages('articles', '/assets/{{ page.style }}/img/articles-over.jpg'); return true;"
+				onmouseout="changeImages('articles', '/assets/{{ page.style }}/img/articles.jpg'); return true;"
+				onmousedown="changeImages('articles', '/assets/{{ page.style }}/img/articles-over.jpg'); return true;"
+				onmouseup="changeImages('articles', '/assets/{{ page.style }}/img/articles-over.jpg'); return true;">
+				<img name="articles" id="articles" src="/assets/{{ page.style }}/img/articles.jpg" width="120" height="45" alt="Articles" /></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="/contacts/"
+				onmouseover="changeImages('contacts', '/assets/{{ page.style }}/img/contacts-over.jpg'); return true;"
+				onmouseout="changeImages('contacts', '/assets/{{ page.style }}/img/contacts.jpg'); return true;"
+				onmousedown="changeImages('contacts', '/assets/{{ page.style }}/img/contacts-over.jpg'); return true;"
+				onmouseup="changeImages('contacts', '/assets/{{ page.style }}/img/contacts-over.jpg'); return true;">
+				<img name="contacts" id="contacts" src="/assets/{{ page.style }}/img/contacts.jpg" width="120" height="45" alt="Contacts" /></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="/education/"
+				onmouseover="changeImages('education', '/assets/{{ page.style }}/img/education-over.jpg'); return true;"
+				onmouseout="changeImages('education', '/assets/{{ page.style }}/img/education.jpg'); return true;"
+				onmousedown="changeImages('education', '/assets/{{ page.style }}/img/education-over.jpg'); return true;"
+				onmouseup="changeImages('education', '/assets/{{ page.style }}/img/education-over.jpg'); return true;">
+				<img name="education" id="education" src="/assets/{{ page.style }}/img/education.jpg" width="120" height="45" alt="Education" /></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="/family/"
+				onmouseover="changeImages('family', '/assets/{{ page.style }}/img/family-over.jpg'); return true;"
+				onmouseout="changeImages('family', '/assets/{{ page.style }}/img/family.jpg'); return true;"
+				onmousedown="changeImages('family', '/assets/{{ page.style }}/img/family-over.jpg'); return true;"
+				onmouseup="changeImages('family', '/assets/{{ page.style }}/img/family-over.jpg'); return true;">
+				<img name="family" id="family" src="/assets/{{ page.style }}/img/family.jpg" width="120" height="45" alt="Family" /></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="/guestbook/"
+				onmouseover="changeImages('guestbook', '/assets/{{ page.style }}/img/guestbook-over.jpg'); return true;"
+				onmouseout="changeImages('guestbook', '/assets/{{ page.style }}/img/guestbook.jpg'); return true;"
+				onmousedown="changeImages('guestbook', '/assets/{{ page.style }}/img/guestbook-over.jpg'); return true;"
+				onmouseup="changeImages('guestbook', '/assets/{{ page.style }}/img/guestbook-over.jpg'); return true;">
+				<img name="guestbook" id="guestbook" src="/assets/{{ page.style }}/img/guestbook.jpg" width="120" height="45" alt="Guestbook" /></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="/members/"
+				onmouseover="changeImages('members', '/assets/{{ page.style }}/img/members-over.jpg'); return true;"
+				onmouseout="changeImages('members', '/assets/{{ page.style }}/img/members.jpg'); return true;"
+				onmousedown="changeImages('members', '/assets/{{ page.style }}/img/members-over.jpg'); return true;"
+				onmouseup="changeImages('members', '/assets/{{ page.style }}/img/members-over.jpg'); return true;">
+				<img name="members" id="members" src="/assets/{{ page.style }}/img/members.jpg" width="120" height="45" alt="Members" /></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="/music/"
+				onmouseover="changeImages('music', '/assets/{{ page.style }}/img/music-over.jpg'); return true;"
+				onmouseout="changeImages('music', '/assets/{{ page.style }}/img/music.jpg'); return true;"
+				onmousedown="changeImages('music', '/assets/{{ page.style }}/img/music-over.jpg'); return true;"
+				onmouseup="changeImages('music', '/assets/{{ page.style }}/img/music-over.jpg'); return true;">
+				<img name="music" id="music" src="/assets/{{ page.style }}/img/music.jpg" width="120" height="45" alt="Music" /></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="/projects/"
+				onmouseover="changeImages('projects', '/assets/{{ page.style }}/img/projects-over.jpg'); return true;"
+				onmouseout="changeImages('projects', '/assets/{{ page.style }}/img/projects.jpg'); return true;"
+				onmousedown="changeImages('projects', '/assets/{{ page.style }}/img/projects-over.jpg'); return true;"
+				onmouseup="changeImages('projects', '/assets/{{ page.style }}/img/projects-over.jpg'); return true;">
+				<img name="projects" id="projects" src="/assets/{{ page.style }}/img/projects.jpg" width="120" height="45" alt="Projects" /></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="/resume/"
+				onmouseover="changeImages('resume', '/assets/{{ page.style }}/img/resume-over.jpg'); return true;"
+				onmouseout="changeImages('resume', '/assets/{{ page.style }}/img/resume.jpg'); return true;"
+				onmousedown="changeImages('resume', '/assets/{{ page.style }}/img/resume-over.jpg'); return true;"
+				onmouseup="changeImages('resume', '/assets/{{ page.style }}/img/resume-over.jpg'); return true;">
+				<img name="resume" id="resume" src="/assets/{{ page.style }}/img/resume.jpg" width="120" height="45" alt="Resume" /></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="/sitelife/"
+				onmouseover="changeImages('sitelife', '/assets/{{ page.style }}/img/sitelife-over.jpg'); return true;"
+				onmouseout="changeImages('sitelife', '/assets/{{ page.style }}/img/sitelife.jpg'); return true;"
+				onmousedown="changeImages('sitelife', '/assets/{{ page.style }}/img/sitelife-over.jpg'); return true;"
+				onmouseup="changeImages('sitelife', '/assets/{{ page.style }}/img/sitelife-over.jpg'); return true;">
+				<img name="sitelife" id="sitelife" src="/assets/{{ page.style }}/img/sitelife.jpg" width="120" height="45" border="0" alt="Sitelife" /></a></td>
+	</tr>
+	<tr>
+		<td>
+			<img id="nav_bottom" src="/assets/{{ page.style }}/img/nav_bottom.jpg" width="120" height="97" alt="" /></td>
+	</tr>
+</table>
+</body>
+</html>
