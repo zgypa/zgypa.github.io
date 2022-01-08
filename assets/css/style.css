@@ -169,7 +169,7 @@ div.contentpane_background_ {
     position: absolute;
     left: 84px;
     top: 143px;
-    width: 77%;
+    width: -webkit-fill-available;
     height: 385px;
   }
 }
@@ -350,11 +350,11 @@ div.contentpane_text_ {
 
 @media only screen and (max-width: 600px) {
   div.contentpane_head_ {
-    width: 420px;
+    width: 75%;
     height: 84px;
     padding: 10px;
     font-family: monospace;
-    display: contents;
+    display: block;
   }
 
   div.contentpane_text_ {
@@ -363,7 +363,7 @@ div.contentpane_text_ {
     overflow: auto;
     height: 557px;
     display: inline-grid;
-    width: 750%;
+    width: 75%;
     max-width: 100%;
     max-height: 65%;
     margin-right: 10px;
