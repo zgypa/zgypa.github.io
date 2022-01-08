@@ -1,223 +1,579 @@
 #site_title_ {
-    font-style: italic;
-    text-align: center;
-    opacity: 0.5;
+  font-style: italic;
+  text-align: center;
+  opacity: 0.5;
 }
 
 #contentpane {
-    width: 680px;
-    height: 682px;
-    padding: 10px;
-    font-family: monospace;
+  width: 680px;
+  height: 682px;
+  padding: 10px;
+  font-family: monospace;
 }
 
 #addressbook {
-    background-color: #2A3D52;
+  background-color: #2a3d52;
 }
 
 #articles {
-    background-color: #4D1E21;
+  background-color: #4d1e21;
 }
 
 #contacts {
-    background-color: #2A3D52;
+  background-color: #2a3d52;
 }
 
 #education {
-    background-color: #6C5279;
+  background-color: #6c5279;
 }
 
 #family {
-    background-color: #8C6723;
+  background-color: #8c6723;
 }
 
 #guestbook {
-    background-color: #67806A;
+  background-color: #67806a;
 }
 
 #members {
-    background-color: #8CB37B;
+  background-color: #8cb37b;
 }
 
 #music {
-    background-color: #805337;
+  background-color: #805337;
 }
 
 #projects {
-    background-color: #CCA66E;
+  background-color: #cca66e;
 }
 
 #resume {
-    background-color: #1D3332;
+  background-color: #1d3332;
 }
 
 #sitelife {
-    background-color: #402D32;
+  background-color: #402d32;
 }
 
 #Table_01 {
-    width: 800px;
-    border: 0px;
-    padding: 0px;
-    border-spacing: 0px;
-    border-collapse: collapse;
+  width: 800px;
+  border: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
 }
 
 blockquote {
-    font-style: italic;
+  font-style: italic;
 }
 
 td {
-    border-spacing: 0px;
+  border-spacing: 0px;
 }
 
 div.Table_01 {
-	position:absolute;
-	left:0px;
-	top:0px;
-	width:800px;
-	height:825px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 800px;
+  height: 825px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.Table_01 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 }
 
 div.crumbbg_ {
-	position:absolute;
-	left:0px;
-	top:0px;
-	width:800px;
-	height:25px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 800px;
+  height: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.crumbbg_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 800px;
+    height: 25px;
+    /* object-fit: cover; */
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 
 div.header_ {
-	position:absolute;
-	left:0px;
-	top:25px;
-	width:800px;
-	height:118px;
+  position: absolute;
+  left: 0px;
+  top: 25px;
+  width: 800px;
+  height: 118px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.header_ {
+    position: relative;
+    left: 0px;
+    top: 25px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 118px;
+  }
+}
+
+.image_class {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .image_class {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 }
 
 div.entrance_ {
-	position:absolute;
-	left:0px;
-	top:143px;
-	width:120px;
-	height:90px;
+  position: absolute;
+  left: 0px;
+  top: 143px;
+  width: 120px;
+  height: 90px;
 }
 
 div.contentpane_background_ {
-	position:absolute;
-	left:120px;
-	top:143px;
-	width:680px;
-	height:682px;
+  position: absolute;
+  left: 120px;
+  top: 143px;
+  width: 680px;
+  height: 682px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.contentpane_background_ {
+    position: absolute;
+    left: 84px;
+    top: 143px;
+    width: 77%;
+    height: 385px;
+  }
+}
+
+.entrance_img {
+  width: 120px;
+  height: 90px;
+  border: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .entrance_img {
+    width: 70%;
+    height: 70%;
+    border: 0;
+  }
+}
+
+.addressbook_img {
+  width: 120px;
+  height: 45px;
+  border: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .addressbook_img {
+    width: 70%;
+    height: 70%;
+    border: 0;
+  }
+}
+
+.articles_img {
+  width: 120px;
+  height: 45px;
+  border: 0;
+}
+
+.contacts_img {
+  width: 120px;
+  height: 45px;
+  border: 0;
+}
+
+.education_img {
+  width: 120px;
+  height: 45px;
+  border: 0;
+}
+
+.family_img {
+  width: 120px;
+  height: 45px;
+  border: 0;
+}
+
+.guestbook_img {
+  width: 120px;
+  height: 45px;
+  border: 0;
+}
+
+.members_img {
+  width: 120px;
+  height: 45px;
+  border: 0;
+}
+
+.music_img {
+  width: 120px;
+  height: 45px;
+  border: 0;
+}
+
+.projects_img {
+  width: 120px;
+  height: 45px;
+  border: 0;
+}
+
+.resume_img {
+  width: 120px;
+  height: 45px;
+  border: 0;
+}
+
+.sitelife_img {
+  width: 120px;
+  height: 45px;
+  border: 0;
+}
+
+.navbottom_img {
+  width: 120px;
+  height: 97px;
+}
+
+@media only screen and (max-width: 600px) {
+  .articles_img {
+    width: 70%;
+    height: 70%;
+    border: 0;
+  }
+
+  .contacts_img {
+    width: 70%;
+    height: 70%;
+    border: 0;
+  }
+
+  .education_img {
+    width: 70%;
+    height: 70%;
+    border: 0;
+  }
+
+  .family_img {
+    width: 70%;
+    height: 70%;
+    border: 0;
+  }
+
+  .guestbook_img {
+    width: 70%;
+    height: 70%;
+    border: 0;
+  }
+
+  .members_img {
+    width: 70%;
+    height: 70%;
+    border: 0;
+  }
+
+  .music_img {
+    width: 70%;
+    height: 70%;
+    border: 0;
+  }
+
+  .projects_img {
+    width: 70%;
+    height: 70%;
+    border: 0;
+  }
+
+  .resume_img {
+    width: 70%;
+    height: 70%;
+    border: 0;
+  }
+
+  .sitelife_img {
+    width: 70%;
+    height: 70%;
+    border: 0;
+  }
+
+  .navbottom_img {
+    width: 70%;
+    height: 70%;
+  }
 }
 
 div.contentpane_head_ {
-	width:420px;
-	height: 84px;
-    padding: 10px;
-    font-family: monospace;
+  width: 420px;
+  height: 84px;
+  padding: 10px;
+  font-family: monospace;
 }
 
 div.contentpane_text_ {
+  padding: 10px;
+  font-family: monospace;
+  overflow: auto;
+  height: 557px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.contentpane_head_ {
+    width: 420px;
+    height: 84px;
+    padding: 10px;
+    font-family: monospace;
+    display: contents;
+  }
+
+  div.contentpane_text_ {
     padding: 10px;
     font-family: monospace;
     overflow: auto;
     height: 557px;
+    display: inline-grid;
+    width: 750%;
+    max-width: 100%;
+    max-height: 65%;
+    margin-right: 10px;
+  }
 }
 
 div.addressbook_ {
-	position:absolute;
-	left:0px;
-	top:233px;
-	width:120px;
-	height:45px;
+  position: absolute;
+  left: 0px;
+  top: 233px;
+  width: 120px;
+  height: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.addressbook_ {
+    position: absolute;
+    left: 0px;
+    top: 183px;
+    width: 120px;
+    height: 45px;
+  }
 }
 
 div.articles_ {
-	position:absolute;
-	left:0px;
-	top:278px;
-	width:120px;
-	height:45px;
+  position: absolute;
+  left: 0px;
+  top: 278px;
+  width: 120px;
+  height: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.articles_ {
+    position: absolute;
+    left: 0px;
+    top: 210px;
+    width: 120px;
+    height: 45px;
+  }
 }
 
 div.contacts_ {
-	position:absolute;
-	left:0px;
-	top:323px;
-	width:120px;
-	height:45px;
+  position: absolute;
+  left: 0px;
+  top: 323px;
+  width: 120px;
+  height: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.contacts_ {
+    position: absolute;
+    left: 0px;
+    top: 238px;
+    width: 120px;
+    height: 45px;
+  }
 }
 
 div.education_ {
-	position:absolute;
-	left:0px;
-	top:368px;
-	width:120px;
-	height:45px;
+  position: absolute;
+  left: 0px;
+  top: 368px;
+  width: 120px;
+  height: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.education_ {
+    position: absolute;
+    left: 0px;
+    top: 267px;
+    width: 120px;
+    height: 45px;
+  }
 }
 
 div.family_ {
-	position:absolute;
-	left:0px;
-	top:413px;
-	width:120px;
-	height:45px;
+  position: absolute;
+  left: 0px;
+  top: 413px;
+  width: 120px;
+  height: 45px;
+}
+@media only screen and (max-width: 600px) {
+  div.family_ {
+    position: absolute;
+    left: 0px;
+    top: 296px;
+    width: 120px;
+    height: 45px;
+  }
 }
 
 div.guestbook_ {
-	position:absolute;
-	left:0px;
-	top:458px;
-	width:120px;
-	height:45px;
+  position: absolute;
+  left: 0px;
+  top: 458px;
+  width: 120px;
+  height: 45px;
+}
+@media only screen and (max-width: 600px) {
+  div.guestbook_ {
+    position: absolute;
+    left: 0px;
+    top: 328px;
+    width: 120px;
+    height: 45px;
+  }
 }
 
 div.members_ {
-	position:absolute;
-	left:0px;
-	top:503px;
-	width:120px;
-	height:45px;
+  position: absolute;
+  left: 0px;
+  top: 503px;
+  width: 120px;
+  height: 45px;
+}
+@media only screen and (max-width: 600px) {
+  div.members_ {
+    position: absolute;
+    left: 0px;
+    top: 356px;
+    width: 120px;
+    height: 45px;
+  }
 }
 
 div.music_ {
-	position:absolute;
-	left:0px;
-	top:548px;
-	width:120px;
-	height:45px;
+  position: absolute;
+  left: 0px;
+  top: 548px;
+  width: 120px;
+  height: 45px;
+}
+@media only screen and (max-width: 600px) {
+  div.music_ {
+    position: absolute;
+    left: 0px;
+    top: 384px;
+    width: 120px;
+    height: 45px;
+  }
 }
 
 div.projects_ {
-	position:absolute;
-	left:0px;
-	top:593px;
-	width:120px;
-	height:45px;
+  position: absolute;
+  left: 0px;
+  top: 593px;
+  width: 120px;
+  height: 45px;
+}
+@media only screen and (max-width: 600px) {
+  div.projects_ {
+    position: absolute;
+    left: 0px;
+    top: 412px;
+    width: 120px;
+    height: 45px;
+  }
 }
 
 div.resume_ {
-	position:absolute;
-	left:0px;
-	top:638px;
-	width:120px;
-	height:45px;
+  position: absolute;
+  left: 0px;
+  top: 638px;
+  width: 120px;
+  height: 45px;
+}
+@media only screen and (max-width: 600px) {
+  div.resume_ {
+    position: absolute;
+    left: 0px;
+    top: 440px;
+    width: 120px;
+    height: 45px;
+  }
 }
 
 div.sitelife_ {
-	position:absolute;
-	left:0px;
-	top:683px;
-	width:120px;
-	height:45px;
+  position: absolute;
+  left: 0px;
+  top: 683px;
+  width: 120px;
+  height: 45px;
+}
+@media only screen and (max-width: 600px) {
+  div.sitelife_ {
+    position: absolute;
+    left: 0px;
+    top: 468px;
+    width: 120px;
+    height: 45px;
+  }
 }
 
 div.nav-bottom_ {
-	position:absolute;
-	left:0px;
-	top:728px;
-	width:120px;
-	height:97px;
+  position: absolute;
+  left: 0px;
+  top: 728px;
+  width: 120px;
+  height: 97px;
 }
-
+@media only screen and (max-width: 600px) {
+  div.nav-bottom_ {
+    position: absolute;
+    left: 0px;
+    top: 496px;
+    width: 120px;
+    height: 45px;
+  }
+}
