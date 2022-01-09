@@ -88,6 +88,7 @@ div.Table_01 {
     height: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    background-position: bottom;
   }
 }
 
@@ -101,12 +102,13 @@ div.crumbbg_ {
 
 @media only screen and (max-width: 600px) {
   div.crumbbg_ {
+    visibility: hidden;
     position: absolute;
     left: 0px;
     top: 0px;
     width: 800px;
     height: 25px;
-    /* object-fit: cover; */
+    object-fit: cover;
     max-width: 100%;
     max-height: 100%;
   }
@@ -122,13 +124,12 @@ div.header_ {
 
 @media only screen and (max-width: 600px) {
   div.header_ {
-    position: relative;
+    position: initial;
     left: 0px;
     top: 25px;
     width: 100%;
     max-width: 100%;
-    max-height: 100%;
-    height: 118px;
+    height: auto;
   }
 }
 
@@ -141,7 +142,7 @@ div.header_ {
   .image_class {
     width: 100%;
     height: auto;
-    position: absolute;
+    position: inherit;
     bottom: 0;
     left: 0;
     right: 0;
@@ -156,6 +157,17 @@ div.entrance_ {
   height: 90px;
 }
 
+@media only screen and (max-width: 600px) {
+  div.entrance_ {
+    position: absolute;
+    left: 0px;
+    top: 53px;
+    width: 120px;
+    height: 90px;
+    z-index: 1000;
+  }
+}
+
 div.contentpane_background_ {
   position: absolute;
   left: 120px;
@@ -167,10 +179,14 @@ div.contentpane_background_ {
 @media only screen and (max-width: 600px) {
   div.contentpane_background_ {
     position: absolute;
-    left: 84px;
-    top: 143px;
+    left: 26px;
+    top: 26px;
     width: -webkit-fill-available;
     height: 385px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 326px;
   }
 }
 
@@ -355,6 +371,8 @@ div.contentpane_text_ {
     padding: 10px;
     font-family: monospace;
     display: block;
+    margin-top: 70px;
+    margin-left: 55px;
   }
 
   div.contentpane_text_ {
@@ -363,10 +381,10 @@ div.contentpane_text_ {
     overflow: auto;
     height: 557px;
     display: inline-grid;
-    width: 75%;
     max-width: 100%;
-    max-height: 65%;
+    max-height: 100%;
     margin-right: 10px;
+    margin-left: 55px;
   }
 }
 
@@ -382,9 +400,10 @@ div.addressbook_ {
   div.addressbook_ {
     position: absolute;
     left: 0px;
-    top: 183px;
+    top: 93px;
     width: 120px;
     height: 45px;
+    z-index: 1000;
   }
 }
 
@@ -400,7 +419,7 @@ div.articles_ {
   div.articles_ {
     position: absolute;
     left: 0px;
-    top: 210px;
+    top: 123px;
     width: 120px;
     height: 45px;
   }
@@ -418,7 +437,7 @@ div.contacts_ {
   div.contacts_ {
     position: absolute;
     left: 0px;
-    top: 238px;
+    top: 153px;
     width: 120px;
     height: 45px;
   }
@@ -436,7 +455,7 @@ div.education_ {
   div.education_ {
     position: absolute;
     left: 0px;
-    top: 267px;
+    top: 183px;
     width: 120px;
     height: 45px;
   }
@@ -453,7 +472,7 @@ div.family_ {
   div.family_ {
     position: absolute;
     left: 0px;
-    top: 296px;
+    top: 213px;
     width: 120px;
     height: 45px;
   }
@@ -470,7 +489,7 @@ div.guestbook_ {
   div.guestbook_ {
     position: absolute;
     left: 0px;
-    top: 328px;
+    top: 243px;
     width: 120px;
     height: 45px;
   }
@@ -487,7 +506,7 @@ div.members_ {
   div.members_ {
     position: absolute;
     left: 0px;
-    top: 356px;
+    top: 273px;
     width: 120px;
     height: 45px;
   }
@@ -504,7 +523,7 @@ div.music_ {
   div.music_ {
     position: absolute;
     left: 0px;
-    top: 384px;
+    top: 303px;
     width: 120px;
     height: 45px;
   }
@@ -521,7 +540,7 @@ div.projects_ {
   div.projects_ {
     position: absolute;
     left: 0px;
-    top: 412px;
+    top: 333px;
     width: 120px;
     height: 45px;
   }
@@ -538,7 +557,7 @@ div.resume_ {
   div.resume_ {
     position: absolute;
     left: 0px;
-    top: 440px;
+    top: 363px;
     width: 120px;
     height: 45px;
   }
@@ -555,7 +574,7 @@ div.sitelife_ {
   div.sitelife_ {
     position: absolute;
     left: 0px;
-    top: 468px;
+    top: 393px;
     width: 120px;
     height: 45px;
   }
@@ -572,7 +591,7 @@ div.nav-bottom_ {
   div.nav-bottom_ {
     position: absolute;
     left: 0px;
-    top: 496px;
+    top: 423px;
     width: 120px;
     height: 45px;
   }
