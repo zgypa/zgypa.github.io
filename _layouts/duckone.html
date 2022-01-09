@@ -89,10 +89,7 @@
     </script>
   </head>
   <body id="{{ page.style }}" onload="preloadImages();">
-    <div
-      class="Table_01"
-      style="background-image: url(/assets/{{ page.style }}/img/contentpane.jpg);"
-    >
+    <div class="Table_01">
       <div class="crumbbg_">
         <img
           id="crumbbg"
@@ -110,7 +107,7 @@
           alt=""
         />
       </div>
-      <div class="entrance_">
+      <div id="myDiv0" style="display: none" class="entrance_">
         <a
           href="/"
           onmouseover="changeImages('entrance', '/assets/{{ page.style }}/img/entrance-over.jpg'); return true;"
@@ -130,6 +127,14 @@
         class="contentpane_background_"
         style="background-image: url(/assets/{{ page.style }}/img/contentpane.jpg);"
       >
+        <div
+          type="button"
+          name="answer"
+          onclick="ShowDiv()"
+          class="contentpane_button_"
+        >
+          Menu
+        </div>
         <div class="contentpane_head_">
           <p id="site_title_">{{ site.title }} - {{ site.description }}</p>
           <h1>{{ page.title }}</h1>
@@ -137,7 +142,8 @@
         </div>
         <div class="contentpane_text_">{{ content }}</div>
       </div>
-      <div class="addressbook_">
+
+      <div id="myDiv" style="display: none" class="addressbook_">
         <a
           href="/addressbook/"
           onmouseover="changeImages('addressbook', '/assets/{{ page.style }}/img/addressbook-over.jpg'); return true;"
@@ -153,7 +159,7 @@
             alt="Addressbook"
         /></a>
       </div>
-      <div class="articles_">
+      <div id="myDiv1" style="display: none" class="articles_">
         <a
           href="/articles/"
           onmouseover="changeImages('articles', '/assets/{{ page.style }}/img/articles-over.jpg'); return true;"
@@ -169,7 +175,7 @@
             alt="Articles"
         /></a>
       </div>
-      <div class="contacts_">
+      <div id="myDiv2" style="display: none" class="contacts_">
         <a
           href="/contacts/"
           onmouseover="changeImages('contacts', '/assets/{{ page.style }}/img/contacts-over.jpg'); return true;"
@@ -185,7 +191,7 @@
             alt="Contacts"
         /></a>
       </div>
-      <div class="education_">
+      <div id="myDiv3" style="display: none" class="education_">
         <a
           href="/education/"
           onmouseover="changeImages('education', '/assets/{{ page.style }}/img/education-over.jpg'); return true;"
@@ -201,7 +207,7 @@
             alt="Education"
         /></a>
       </div>
-      <div class="family_">
+      <div id="myDiv4" style="display: none" class="family_">
         <a
           href="/family/"
           onmouseover="changeImages('family', '/assets/{{ page.style }}/img/family-over.jpg'); return true;"
@@ -217,7 +223,7 @@
             alt="Family"
         /></a>
       </div>
-      <div class="guestbook_">
+      <div id="myDiv5" style="display: none" class="guestbook_">
         <a
           href="/guestbook/"
           onmouseover="changeImages('guestbook', '/assets/{{ page.style }}/img/guestbook-over.jpg'); return true;"
@@ -233,7 +239,7 @@
             alt="Guestbook"
         /></a>
       </div>
-      <div class="members_">
+      <div id="myDiv6" style="display: none" class="members_">
         <a
           href="/members/"
           onmouseover="changeImages('members', '/assets/{{ page.style }}/img/members-over.jpg'); return true;"
@@ -249,7 +255,7 @@
             alt="Members"
         /></a>
       </div>
-      <div class="music_">
+      <div id="myDiv7" style="display: none" class="music_">
         <a
           href="/music/"
           onmouseover="changeImages('music', '/assets/{{ page.style }}/img/music-over.jpg'); return true;"
@@ -265,7 +271,7 @@
             alt="Music"
         /></a>
       </div>
-      <div class="projects_">
+      <div id="myDiv8" style="display: none" class="projects_">
         <a
           href="/projects/"
           onmouseover="changeImages('projects', '/assets/{{ page.style }}/img/projects-over.jpg'); return true;"
@@ -281,7 +287,7 @@
             alt="Projects"
         /></a>
       </div>
-      <div class="resume_">
+      <div id="myDiv9" style="display: none" class="resume_">
         <a
           href="/resume/"
           onmouseover="changeImages('resume', '/assets/{{ page.style }}/img/resume-over.jpg'); return true;"
@@ -297,7 +303,7 @@
             alt="Resume"
         /></a>
       </div>
-      <div class="sitelife_">
+      <div id="myDiv10" style="display: none" class="sitelife_">
         <a
           href="/sitelife/"
           onmouseover="changeImages('sitelife', '/assets/{{ page.style }}/img/sitelife-over.jpg'); return true;"
@@ -314,7 +320,7 @@
             alt="Sitelife"
         /></a>
       </div>
-      <div class="nav-bottom_">
+      <div id="myDiv11" style="display: none" class="nav-bottom_">
         <img
           id="nav_bottom"
           src="/assets/{{ page.style }}/img/nav_bottom.jpg"
@@ -323,5 +329,52 @@
         />
       </div>
     </div>
+    <script>
+      function ShowDiv() {
+        var x = document.getElementById("myDiv");
+        var x0 = document.getElementById("myDiv0");
+        var x1 = document.getElementById("myDiv1");
+        var x2 = document.getElementById("myDiv2");
+        var x3 = document.getElementById("myDiv3");
+        var x4 = document.getElementById("myDiv4");
+        var x5 = document.getElementById("myDiv5");
+        var x6 = document.getElementById("myDiv6");
+        var x7 = document.getElementById("myDiv7");
+        var x8 = document.getElementById("myDiv8");
+        var x9 = document.getElementById("myDiv9");
+        var x10 = document.getElementById("myDiv10");
+        var x11 = document.getElementById("myDiv11");
+
+        if (x.style.display === "none") {
+          x.style.display = "";
+          x0.style.display = "";
+          x1.style.display = "";
+          x2.style.display = "";
+          x3.style.display = "";
+          x4.style.display = "";
+          x5.style.display = "";
+          x6.style.display = "";
+          x7.style.display = "";
+          x8.style.display = "";
+          x9.style.display = "";
+          x10.style.display = "";
+          x11.style.display = "";
+        } else {
+          x.style.display = "none";
+          x0.style.display = "none";
+          x1.style.display = "none";
+          x2.style.display = "none";
+          x3.style.display = "none";
+          x4.style.display = "none";
+          x5.style.display = "none";
+          x6.style.display = "none";
+          x7.style.display = "none";
+          x8.style.display = "none";
+          x9.style.display = "none";
+          x10.style.display = "none";
+          x11.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
