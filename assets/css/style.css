@@ -79,7 +79,7 @@ div.Table_01 {
   height: 825px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.Table_01 {
     position: absolute;
     left: 0px;
@@ -100,7 +100,7 @@ div.crumbbg_ {
   height: 25px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.crumbbg_ {
     visibility: hidden;
     position: absolute;
@@ -122,7 +122,7 @@ div.header_ {
   height: 118px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.header_ {
     position: initial;
     left: 0px;
@@ -138,7 +138,7 @@ div.header_ {
   height: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   .image_class {
     width: 100%;
     height: auto;
@@ -157,13 +157,24 @@ div.entrance_ {
   height: 90px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.entrance_ {
     position: absolute;
     left: 0px;
     top: 53px;
     width: 160px;
     height: 120px;
+    z-index: 1000;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.entrance_ {
+    position: absolute;
+    left: 0px;
+    top: 116px;
+    width: 280px;
+    height: 240px;
     z-index: 1000;
   }
 }
@@ -176,7 +187,7 @@ div.contentpane_background_ {
   height: 682px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.contentpane_background_ {
     position: absolute;
     left: 26px;
@@ -190,13 +201,27 @@ div.contentpane_background_ {
   }
 }
 
+@media only screen and (width: 828px) {
+  div.contentpane_background_ {
+    position: absolute;
+    left: 67px;
+    top: -87px;
+    width: -webkit-fill-available;
+    height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 696px;
+  }
+}
+
 .entrance_img {
   width: 120px;
   height: 90px;
   border: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   .entrance_img {
     width: 70%;
     height: 70%;
@@ -210,7 +235,7 @@ div.contentpane_background_ {
   border: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   .addressbook_img {
     width: 70%;
     height: 70%;
@@ -283,7 +308,7 @@ div.contentpane_background_ {
   height: 97px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   .articles_img {
     width: 70%;
     height: 70%;
@@ -364,13 +389,14 @@ div.contentpane_text_ {
   height: 557px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.contentpane_head_ {
     width: 75%;
     height: 84px;
     padding: 10px;
     font-family: monospace;
     display: block;
+    margin-left: 40px;
   }
 
   div.contentpane_text_ {
@@ -382,6 +408,7 @@ div.contentpane_text_ {
     max-width: 100%;
     max-height: 100%;
     margin-right: 50px;
+    margin-left: 40px;
   }
   div.contentpane_button_ {
     font-family: monospace;
@@ -394,6 +421,62 @@ div.contentpane_text_ {
   }
 }
 
+@media only screen and (width: 828px) {
+  div.contentpane_head_ {
+    width: 75%;
+    height: 84px;
+    padding: 10px;
+    font-family: monospace;
+    display: block;
+    margin-left: 80px;
+    font-size: 25px;
+    margin-top: 300px;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.contentpane_button_ {
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: 0;
+    height: 9%;
+    width: 35%;
+    margin-top: 99px;
+    text-align: center;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.contentpane_text_ {
+    padding: 10px;
+    font-family: monospace;
+    overflow: auto;
+    height: fit-content;
+    margin-left: 80px;
+    display: inline-grid;
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 100px;
+    font-size: 25px;
+    margin-top: 73px;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.contentpane_button_ {
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: 0;
+    height: 9%;
+    width: 35%;
+    margin-top: 169px;
+    text-align: center;
+    margin-left: 540px;
+    position: absolute;
+    padding: 84px 0;
+  }
+}
+
 div.addressbook_ {
   position: absolute;
   left: 0px;
@@ -402,13 +485,24 @@ div.addressbook_ {
   height: 45px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.addressbook_ {
     position: absolute;
     left: 0px;
-    top: 103px;
+    top: 135px;
     width: 160px;
     height: 70px;
+    z-index: 1000;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.addressbook_ {
+    position: absolute;
+    left: 0px;
+    top: 209px;
+    width: 280px;
+    height: 140px;
     z-index: 1000;
   }
 }
@@ -421,13 +515,24 @@ div.articles_ {
   height: 45px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.articles_ {
     position: absolute;
     left: 0px;
-    top: 143px;
+    top: 216px;
     width: 160px;
     height: 70px;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.articles_ {
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    width: 280px;
+    height: 140px;
+    z-index: 1000;
   }
 }
 
@@ -439,13 +544,24 @@ div.contacts_ {
   height: 45px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.contacts_ {
     position: absolute;
     left: 0px;
-    top: 183px;
+    top: 316px;
     width: 160px;
     height: 70px;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.contacts_ {
+    position: absolute;
+    left: 0px;
+    top: 390px;
+    width: 280px;
+    height: 140px;
+    z-index: 1000;
   }
 }
 
@@ -457,13 +573,24 @@ div.education_ {
   height: 45px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.education_ {
     position: absolute;
     left: 0px;
     top: 183px;
     width: 160px;
     height: 70px;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.education_ {
+    position: absolute;
+    left: 0px;
+    top: 480px;
+    width: 280px;
+    height: 140px;
+    z-index: 1000;
   }
 }
 
@@ -474,13 +601,24 @@ div.family_ {
   width: 120px;
   height: 45px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.family_ {
     position: absolute;
     left: 0px;
     top: 223px;
     width: 160px;
     height: 70px;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.family_ {
+    position: absolute;
+    left: 0px;
+    top: 570px;
+    width: 280px;
+    height: 140px;
+    z-index: 1000;
   }
 }
 
@@ -491,13 +629,24 @@ div.guestbook_ {
   width: 120px;
   height: 45px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.guestbook_ {
     position: absolute;
     left: 0px;
     top: 263px;
     width: 160px;
     height: 70px;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.guestbook_ {
+    position: absolute;
+    left: 0px;
+    top: 660px;
+    width: 280px;
+    height: 140px;
+    z-index: 1000;
   }
 }
 
@@ -508,13 +657,24 @@ div.members_ {
   width: 120px;
   height: 45px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.members_ {
     position: absolute;
     left: 0px;
     top: 303px;
     width: 160px;
     height: 70px;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.members_ {
+    position: absolute;
+    left: 0px;
+    top: 750px;
+    width: 280px;
+    height: 140px;
+    z-index: 1000;
   }
 }
 
@@ -525,13 +685,24 @@ div.music_ {
   width: 120px;
   height: 45px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.music_ {
     position: absolute;
     left: 0px;
     top: 343px;
     width: 160px;
     height: 70px;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.music_ {
+    position: absolute;
+    left: 0px;
+    top: 840px;
+    width: 280px;
+    height: 140px;
+    z-index: 1000;
   }
 }
 
@@ -542,13 +713,23 @@ div.projects_ {
   width: 120px;
   height: 45px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.projects_ {
     position: absolute;
     left: 0px;
     top: 383px;
     width: 160px;
     height: 70px;
+  }
+}
+@media only screen and (width: 828px) {
+  div.projects_ {
+    position: absolute;
+    left: 0px;
+    top: 928px;
+    width: 280px;
+    height: 140px;
+    z-index: 1000;
   }
 }
 
@@ -559,13 +740,24 @@ div.resume_ {
   width: 120px;
   height: 45px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.resume_ {
     position: absolute;
     left: 0px;
     top: 423px;
     width: 160px;
     height: 70px;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.resume_ {
+    position: absolute;
+    left: 0px;
+    top: 1018px;
+    width: 280px;
+    height: 140px;
+    z-index: 1000;
   }
 }
 
@@ -576,13 +768,24 @@ div.sitelife_ {
   width: 120px;
   height: 45px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.sitelife_ {
     position: absolute;
     left: 0px;
     top: 463px;
     width: 160px;
     height: 70px;
+  }
+}
+
+@media only screen and (width: 828px) {
+  div.sitelife_ {
+    position: absolute;
+    left: 0px;
+    top: 1108px;
+    width: 280px;
+    height: 140px;
+    z-index: 1000;
   }
 }
 
@@ -593,12 +796,22 @@ div.nav-bottom_ {
   width: 120px;
   height: 97px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
   div.nav-bottom_ {
     position: absolute;
     left: 0px;
     top: 503px;
     width: 160px;
     height: 70px;
+  }
+}
+@media only screen and (width: 828px) {
+  div.nav-bottom_ {
+    position: absolute;
+    left: 0px;
+    top: 1200px;
+    width: 280px;
+    height: 140px;
+    z-index: 1000;
   }
 }
