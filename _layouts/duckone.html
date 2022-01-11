@@ -107,7 +107,7 @@
           alt=""
         />
       </div>
-      <div id="myDiv0" style="display: none" class="entrance_">
+      <div id="myDiv0" class="entrance_">
         <a
           href="/"
           onmouseover="changeImages('entrance', '/assets/{{ page.style }}/img/entrance-over.jpg'); return true;"
@@ -143,7 +143,7 @@
         <div class="contentpane_text_">{{ content }}</div>
       </div>
 
-      <div id="myDiv" style="display: none" class="addressbook_">
+      <div id="myDiv" class="addressbook_">
         <a
           href="/addressbook/"
           onmouseover="changeImages('addressbook', '/assets/{{ page.style }}/img/addressbook-over.jpg'); return true;"
@@ -159,7 +159,7 @@
             alt="Addressbook"
         /></a>
       </div>
-      <div id="myDiv1" style="display: none" class="articles_">
+      <div id="myDiv1" class="articles_">
         <a
           href="/articles/"
           onmouseover="changeImages('articles', '/assets/{{ page.style }}/img/articles-over.jpg'); return true;"
@@ -175,7 +175,7 @@
             alt="Articles"
         /></a>
       </div>
-      <div id="myDiv2" style="display: none" class="contacts_">
+      <div id="myDiv2" class="contacts_">
         <a
           href="/contacts/"
           onmouseover="changeImages('contacts', '/assets/{{ page.style }}/img/contacts-over.jpg'); return true;"
@@ -191,7 +191,7 @@
             alt="Contacts"
         /></a>
       </div>
-      <div id="myDiv3" style="display: none" class="education_">
+      <div id="myDiv3" class="education_">
         <a
           href="/education/"
           onmouseover="changeImages('education', '/assets/{{ page.style }}/img/education-over.jpg'); return true;"
@@ -207,7 +207,7 @@
             alt="Education"
         /></a>
       </div>
-      <div id="myDiv4" style="display: none" class="family_">
+      <div id="myDiv4" class="family_">
         <a
           href="/family/"
           onmouseover="changeImages('family', '/assets/{{ page.style }}/img/family-over.jpg'); return true;"
@@ -223,7 +223,7 @@
             alt="Family"
         /></a>
       </div>
-      <div id="myDiv5" style="display: none" class="guestbook_">
+      <div id="myDiv5" class="guestbook_">
         <a
           href="/guestbook/"
           onmouseover="changeImages('guestbook', '/assets/{{ page.style }}/img/guestbook-over.jpg'); return true;"
@@ -239,7 +239,7 @@
             alt="Guestbook"
         /></a>
       </div>
-      <div id="myDiv6" style="display: none" class="members_">
+      <div id="myDiv6" class="members_">
         <a
           href="/members/"
           onmouseover="changeImages('members', '/assets/{{ page.style }}/img/members-over.jpg'); return true;"
@@ -255,7 +255,7 @@
             alt="Members"
         /></a>
       </div>
-      <div id="myDiv7" style="display: none" class="music_">
+      <div id="myDiv7" class="music_">
         <a
           href="/music/"
           onmouseover="changeImages('music', '/assets/{{ page.style }}/img/music-over.jpg'); return true;"
@@ -271,7 +271,7 @@
             alt="Music"
         /></a>
       </div>
-      <div id="myDiv8" style="display: none" class="projects_">
+      <div id="myDiv8" class="projects_">
         <a
           href="/projects/"
           onmouseover="changeImages('projects', '/assets/{{ page.style }}/img/projects-over.jpg'); return true;"
@@ -287,7 +287,7 @@
             alt="Projects"
         /></a>
       </div>
-      <div id="myDiv9" style="display: none" class="resume_">
+      <div id="myDiv9" class="resume_">
         <a
           href="/resume/"
           onmouseover="changeImages('resume', '/assets/{{ page.style }}/img/resume-over.jpg'); return true;"
@@ -303,7 +303,7 @@
             alt="Resume"
         /></a>
       </div>
-      <div id="myDiv10" style="display: none" class="sitelife_">
+      <div id="myDiv10" class="sitelife_">
         <a
           href="/sitelife/"
           onmouseover="changeImages('sitelife', '/assets/{{ page.style }}/img/sitelife-over.jpg'); return true;"
@@ -320,7 +320,7 @@
             alt="Sitelife"
         /></a>
       </div>
-      <div id="myDiv11" style="display: none" class="nav-bottom_">
+      <div id="myDiv11" class="nav-bottom_">
         <img
           id="nav_bottom"
           src="/assets/{{ page.style }}/img/nav_bottom.jpg"
@@ -345,34 +345,34 @@
         var x10 = document.getElementById("myDiv10");
         var x11 = document.getElementById("myDiv11");
 
-        if (x.style.display === "none") {
-          x.style.display = "";
-          x0.style.display = "";
-          x1.style.display = "";
-          x2.style.display = "";
-          x3.style.display = "";
-          x4.style.display = "";
-          x5.style.display = "";
-          x6.style.display = "";
-          x7.style.display = "";
-          x8.style.display = "";
-          x9.style.display = "";
-          x10.style.display = "";
-          x11.style.display = "";
+        if ((x.className = "addressbook_")) {
+          x.className = "a";
+          x0.className = "a0";
+          x1.className = "a1";
+          x2.className = "a2";
+          x3.className = "a3";
+          x4.className = "a4";
+          x5.className = "a5";
+          x6.className = "a6";
+          x7.className = "a7";
+          x8.className = "a8";
+          x9.className = "a9";
+          x10.className = "a10";
+          x11.className = "a11";
         } else {
-          x.style.display = "none";
-          x0.style.display = "none";
-          x1.style.display = "none";
-          x2.style.display = "none";
-          x3.style.display = "none";
-          x4.style.display = "none";
-          x5.style.display = "none";
-          x6.style.display = "none";
-          x7.style.display = "none";
-          x8.style.display = "none";
-          x9.style.display = "none";
-          x10.style.display = "none";
-          x11.style.display = "none";
+          x.className = "addressbook_";
+          x0.className = "entrance_";
+          x1.className = "articles_";
+          x2.className = "contacts_";
+          x3.className = "education_";
+          x4.className = "family_";
+          x5.className = "guestbook_";
+          x6.className = "members_";
+          x7.className = "music_";
+          x8.className = "projects_";
+          x9.className = "resume_";
+          x10.className = "sitelife_";
+          x11.className = "nav-bottom_";
         }
       }
     </script>

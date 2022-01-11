@@ -165,6 +165,7 @@ div.entrance_ {
     width: 160px;
     height: 120px;
     z-index: 1000;
+    display: none !important;
   }
 }
 
@@ -389,6 +390,10 @@ div.contentpane_text_ {
   height: 557px;
 }
 
+div.contentpane_button_ {
+  visibility: hidden;
+}
+
 @media only screen and (max-width: 830px) {
   div.contentpane_head_ {
     width: 75%;
@@ -418,6 +423,7 @@ div.contentpane_text_ {
     width: 35%;
     margin-top: 48px;
     text-align: center;
+    visibility: visible;
   }
 }
 
@@ -483,6 +489,7 @@ div.addressbook_ {
   top: 233px;
   width: 120px;
   height: 45px;
+  display: block !important;
 }
 
 @media only screen and (max-width: 830px) {
@@ -493,6 +500,7 @@ div.addressbook_ {
     width: 160px;
     height: 70px;
     z-index: 1000;
+    display: none !important;
   }
 }
 
@@ -504,6 +512,7 @@ div.addressbook_ {
     width: 280px;
     height: 140px;
     z-index: 1000;
+    display: block;
   }
 }
 
@@ -522,6 +531,7 @@ div.articles_ {
     top: 216px;
     width: 160px;
     height: 70px;
+    display: none !important;
   }
 }
 
@@ -551,6 +561,7 @@ div.contacts_ {
     top: 316px;
     width: 160px;
     height: 70px;
+    display: none !important;
   }
 }
 
@@ -580,6 +591,7 @@ div.education_ {
     top: 183px;
     width: 160px;
     height: 70px;
+    display: none !important;
   }
 }
 
@@ -608,6 +620,7 @@ div.family_ {
     top: 223px;
     width: 160px;
     height: 70px;
+    display: none !important;
   }
 }
 
@@ -636,6 +649,7 @@ div.guestbook_ {
     top: 263px;
     width: 160px;
     height: 70px;
+    display: none !important;
   }
 }
 
@@ -664,6 +678,7 @@ div.members_ {
     top: 303px;
     width: 160px;
     height: 70px;
+    display: none !important;
   }
 }
 
@@ -692,6 +707,7 @@ div.music_ {
     top: 343px;
     width: 160px;
     height: 70px;
+    display: none !important;
   }
 }
 
@@ -720,6 +736,7 @@ div.projects_ {
     top: 383px;
     width: 160px;
     height: 70px;
+    display: none !important;
   }
 }
 @media only screen and (width: 828px) {
@@ -747,6 +764,7 @@ div.resume_ {
     top: 423px;
     width: 160px;
     height: 70px;
+    display: none !important;
   }
 }
 
@@ -775,6 +793,7 @@ div.sitelife_ {
     top: 463px;
     width: 160px;
     height: 70px;
+    display: none !important;
   }
 }
 
@@ -803,6 +822,7 @@ div.nav-bottom_ {
     top: 503px;
     width: 160px;
     height: 70px;
+    display: none !important;
   }
 }
 @media only screen and (width: 828px) {
@@ -814,4 +834,122 @@ div.nav-bottom_ {
     height: 140px;
     z-index: 1000;
   }
+}
+
+.a0 {
+  position: absolute;
+  left: 0px;
+  top: 53px;
+  width: 160px;
+  height: 120px;
+  z-index: 1000;
+  display: block !important;
+}
+
+.a {
+  position: absolute;
+  left: 0px;
+  top: 135px;
+  width: 160px;
+  height: 70px;
+  z-index: 1000;
+  display: block !important;
+}
+
+.a1 {
+  position: absolute;
+  left: 0px;
+  top: 216px;
+  width: 160px;
+  height: 70px;
+  display: block !important;
+}
+
+.a2 {
+  position: absolute;
+  left: 0px;
+  top: 316px;
+  width: 160px;
+  height: 70px;
+  display: block !important;
+}
+
+.a3 {
+  position: absolute;
+  left: 0px;
+  top: 183px;
+  width: 160px;
+  height: 70px;
+  display: block !important;
+}
+
+.a4 {
+  position: absolute;
+  left: 0px;
+  top: 223px;
+  width: 160px;
+  height: 70px;
+  display: block !important;
+}
+.a5 {
+  position: absolute;
+  left: 0px;
+  top: 263px;
+  width: 160px;
+  height: 70px;
+  display: block !important;
+}
+
+.a6 {
+  position: absolute;
+  left: 0px;
+  top: 303px;
+  width: 160px;
+  height: 70px;
+  display: block !important;
+}
+
+.a7 {
+  position: absolute;
+  left: 0px;
+  top: 343px;
+  width: 160px;
+  height: 70px;
+  display: block !important;
+}
+
+.a8 {
+  position: absolute;
+  left: 0px;
+  top: 383px;
+  width: 160px;
+  height: 70px;
+  display: block !important;
+}
+
+.a9 {
+  position: absolute;
+  left: 0px;
+  top: 423px;
+  width: 160px;
+  height: 70px;
+  display: block !important;
+}
+
+.a10 {
+  position: absolute;
+  left: 0px;
+  top: 463px;
+  width: 160px;
+  height: 70px;
+  display: block !important;
+}
+
+.a11 {
+  position: absolute;
+  left: 0px;
+  top: 503px;
+  width: 160px;
+  height: 70px;
+  display: block !important;
 }
