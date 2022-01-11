@@ -1,3 +1,10 @@
+#site_footer_ {
+    font-style: italic;
+    text-align: right;
+	font-size: smaller;
+    opacity: 0.5;
+}
+
 #site_title_ {
     font-style: italic;
     text-align: center;
