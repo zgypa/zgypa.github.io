@@ -12,13 +12,14 @@ tags:
 
 These are my thoughts after having read [Defining and measuring meditation-related adverse effects in mindfulness-based programs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8845498/#!po=1.74419).
 
-In the study, the authors are testing three types of mindfulness based meditations (open monitoring, focused attention, and standard MBCT), which i am personally not familiar with. The key points i will focus on, are these:
+In the study, the authors are testing three types of mindfulness based meditations (open monitoring, focused attention, and standard MBCT), which i am personally not familiar with. The key points i will focus on, are these (MBP=Mindfulness Based Practice):
 
 1. _The current study is an attempt to bring MBP harms monitoring up to the standards of other treatments so that providers can identify events that require monitoring and intervention in order to maximize the safety and efficacy of MBPs._
 2. _The target sample was intended to represent Americans seeking mindfulness meditation training for the management or alleviation of clinical, sub-clinical and transdiagnostic expressions of affective disturbances, including anxiety, depression and stress._ It is worthwhile noting that the study has properly excluded those patients with conditions that the tested mindfulness methods considered not be adequate.
 3. _All treatments met for three hours once per week for eight weeks, with a full-day silent retreat during week seven. Prescribed formal meditation practice homework was 45 min/day, six days/week, with additional informal practice as needed. Participants received basic training in targeted practices (FA, OM, or the combination in MBCT) during weeks 1–4 and then learned how to apply these practices to regulate negative emotions in weeks 5–8._
 4. _The current study found that the active ingredient in MBPs, mindfulness meditation practice—including focused attention and open-monitoring practices alone or in combination—was associated with both transient distress and enduring negative impacts on life and functioning at similar rates to other psychological treatments._
 
+Like the authors, I am in favor of a better, more scientific, approach to measuring alternative, esoteric or otherwise considered "harmless" therapies. However, i do not think mindfulness should be used at therapy or treatment.
 
 ## My thoughts
 
@@ -113,6 +114,32 @@ minutes per day and three hours per week with an instructor is asking too much
 from a person. And especially one that is only there with the expectation to
 heal from something (as described in 2 above).
 
+Progress in mindfulness is achieved differently from other skills. To progress,
+one must reach a stage of accepting reality as it is (including failure to make
+progress), without craving for progress. For most other skills, the mind can
+improve even while craving for improvements. 
+
+While i do believe that a mindful mind will either not develop the above
+mentioned disturbances or slowly heal them, i do not see mindfulness as a
+treatment and it probably should not be applied as a therapy or used as a
+treatment. An individual who seeks treatment is an individual who has some kind
+of illness, and therefore most likely has developed and is currently developing
+large aversion for this illness. The patient will therefore naturally have large
+craving for such illness to heal, and will crave for the treatment to have an
+effect in the reduction of the illness. Such craving will prevent the patient
+from being able to progress in understanding and developing mindfulness skills.
+It is probably asking too much from a patient to learn how to accept suffering
+while their mind is in an unbalanced suffering state. At that stage, all one can
+expect is for the mind to rely on whatever skill it has previously already
+learned. 
+
+Progress in mindfulness can therefore be expected mostly when the mind is in a
+balanced and serene state, and is therefore not indicated as treatment or
+therapy for the above mentioned disturbances. 
+
+As humans, we need to work on developing mindfulness always when the mind is fit for it, taking advantage of every moment that the mind is fit, with the awareness that eventually the mind will not be fit for it anymore. Just like with money, we need to save money when we can work honestly, when our minds and body allow us to do so, so that we can then use the saved money when we are no longer capable or willing to work (retirement). But to a person who has issues making or holding on to money and ran out of it, we don't suggest them to retire. They could try as much as they like, but if there is no money in their retirement fund, it would be unreasonable and unfair to give them such advice. Instead, they need help finding alternative ways for funding their own lives (disability, another job, addressing the issue, ...)
+
+
 ### 4: Results similar to other treatments
 
 Mindfulness should be used as a way of living, not as a therapy for healing. It
@@ -142,9 +169,20 @@ and aversion. And if this exercise is done with the expectation of healing, than
 craving and aversion are bound to increase. When the mind rolls in craving and
 aversion, increase of suffering is expected.
 
-Each individual will have their mind in a mixture of these states (and maybe others as well), depending on their skills and experiences. For most individuals, the easiest place for the mind to go into, is in the third state, the state of craving and aversion, because that is how we constantly use our minds all of the time.
+Each individual will have their mind in a mixture of these states (and maybe
+others as well), depending on their skills and experiences. For most
+individuals, the easiest place for the mind to go into, is in the third state,
+the state of craving and aversion, because that is how we constantly use our
+minds all of the time.
+
+It is therefore not surprising to me that there are adverse effects, and i would
+not expect any progress until the mind is able to dwell more and more in the
+first state, which it will not be able to before it has a direct experience of
+that state, which its disturbances will make very difficult to occur.
 
 ## Final Thoughts
+
+Good paper, and don't use mindfulness as a therapy. By publishing a paper on others using mindfulness as a therapy, there is the risk of acknowledging it as a therapy. Care should be given when writing, in order to explicitly avoid possible misuse of this paper (like using it as a reference in another paper as a proof that mindfulness is a therapy).
 
 In my opinion, in order to see results, the individual needs to:
 
