@@ -17,7 +17,7 @@ orthodontic domain. See open-ortho on [github](https://github.com/open-ortho).
 
 A service to provide orthodontic practice with top quality IT services,
 focussing on gaining full control over the medical data, by making use of open
-software standards. [Ortocomputer](https://www.ortocomptuer.com) is currently the main developer of the [open-ortho github repository](https://github.com/open-ortho)
+software standards. [Ortocomputer](https://www.ortocomputer.com) is currently the main developer of the [open-ortho github repository](https://github.com/open-ortho)
 
 ### American Dental Association
 
