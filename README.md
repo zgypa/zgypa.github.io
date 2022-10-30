@@ -5,6 +5,10 @@
     gem install --user-install github-pages bundler
     bundle exec jekyll serve
 
+## Publishing changes
+
+Merge changes into master. Hosting is done on Github.io.
+
 ## Updating CV
 
 * CV is stored in `Toni_Magni_CV.pdf`.
