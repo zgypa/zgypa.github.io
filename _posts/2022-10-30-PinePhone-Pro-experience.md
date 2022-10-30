@@ -20,6 +20,8 @@ I have purchased a PinePhone Pro, and i would like to post my experience with it
 | ProtonMail     | 12    | 12    |   |   |
 | System Updates | 0     | 1     |   |   |
 | Keyboard       | 1     | 13    |   |   |
+| Other          |       | 14    |   |   |
+
 
 ## Legend
 
@@ -42,3 +44,4 @@ I have purchased a PinePhone Pro, and i would like to post my experience with it
 | 11 | Works but extremely slow. |
 | 12 | Works via web app only, with web browser |
 | 13 | Keyboard works, but button to disable charge does not. Also, external battery indicator indicates battery is charging, when it is, infact, discharging. |
+| 14 | Some modal windows have no button to close. The user needs to kill them swiping up. | 
