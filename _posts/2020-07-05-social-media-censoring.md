@@ -1,7 +1,7 @@
 ---
 layout: duckone
 style: sitelife
-title: Reasons for disconnecting from Messaging Apps
+title: On Social Media Censoring
 author: 
  display_name: Toni
 tags:
