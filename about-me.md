@@ -4,31 +4,8 @@ layout: duckone
 style: members
 title: About Toni
 ---
+Toni Magni is a biomedical engineer focused on orthodontic software IT infrastructures. Currently employed at tops Software (Atlanta, GA), he serves as co-chair of the ADA Standards Committee for Dental Informatics Working Group 11.6 (Integration of Orthodontic Standards) and Clinical Instructor in the Department of Orthodontics at Case Western Reserve University. He is fuelled by a passion for eliminating inefficiencies in the medical field, where software often makes exchanging data unnecessary difficult. To that end, Magni promotes interoperability in orthodontic practices by installing DICOM imaging servers and integrating them with existing software. Further, as a frequent collaborator with several associations and organizations, he has developed Python and JAVA tools to save and share orthodontic photographs and x-rays. Reflecting his belief that changes in informatics will best come through collaboration, these are available to the community on Github.com. 
 
-Toni Magni is a biomedical engineer, focused on orthodontic software IT
-infrastructures. Coming from a family of orthodontists (grandfather, father,
-sister), he decided to use his skills primarily in the orthodontic domain.
+Toni is eager to help create an infrastructure that software developers, doctors, and patients can use to fully take advantage of current and future technologies. To him, promoting interoperability is a multi-faceted affair; it requires work on multiple levels, with an eye towards a broader aim. As instructor and collabotor with others, he believes that the necessary changes to medical informatics will best occur from the ground-up: as a shared venture, rather than a top-down mandate. In his capacity as co-chair of the Dental Informatics Working Group-and in collaboration with other professional organizations-he's also involved in envisioning policies that promote and protect interoperability in the field.  
 
-Toni is fuelled by his passion for eliminating inefficiencies, specifically in
-the medical profession, where software is often not capable of easily exchanging
-data between each other. He considers himself a patiently hard working nerd
-eager to create an infrastructure which software developers, doctors and
-patients can use to fully take advantage of current and future technologies. 
-
-Believing the involvement of the entire orthodontic community to be necessary in
-order to succeed, his position as clinical instructor at the orthodontic
-department at Case Western Reserve University, plays a key role. Teaching
-student doctors about interoperability, then bringing these concepts into life
-into the orthodontic practice, while at the same time collaborating with
-associations and organizations ensures the engagement of the entire community.
-
-Meanwhile at tops Software he vastly improved the productivity of his department
-by developing and implementing software solutions and starting a research and
-development group.
-
-Toni believes mindfulness in the workspace is key to success, a tenet he lives
-through his interest in meditation.
-
-Toni is always interested in collaborating with others, since his projects are
-often too big for him to complete alone. Reach out to
-[email@antoniomagni.com](mailto:email@antoniomagni.com) to connect!
+A patient, hard-working self-described "nerd," Toni is a strong believer in mindfulness in the workspace. This is reflected in his deep interest in and frequent practice of meditation. Toni is always interested in collaborating with others, since his projects are often too big for him to complete alone. Reach out to [email@antoniomagni.com](mailto:email@antoniomagni.com) to connect!
