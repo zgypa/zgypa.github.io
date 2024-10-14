@@ -7,13 +7,12 @@
 
 ## Publishing changes
 
-Merge changes into master. Hosting is done on Github.io.
+Merge changes into `main`. Hosting is done on Github.io.
 
 ## Updating CV
 
-* CV is stored in `Toni_Magni_CV.pdf`.
-* Use Europass to update the CV.
-* Europass profile contains full profile. I need to log into Europass web site to access. Also look at Resume git repo.
+* CV is stored in `Toni_Magni_CV.html`.
+* Use afm/resume repository to update resume in HTML using resume.json.
 
 ## Things to add
 
