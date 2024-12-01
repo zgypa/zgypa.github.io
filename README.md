@@ -13,7 +13,7 @@ Merge changes into `main`. Hosting is done on Github.io.
 
 * CV is stored in `Toni_Magni_CV.pdf` and `Toni_Magni_CV.html`.
 * Use zgypa/resume repo to update the CV and copy here.
-* `cp ../resume/dist/resume-classy.html ./Toni_Magni_CV.html`
+* `cp ../resume/dist/resume-full.html ./Toni_Magni_CV.html`
 
 ## Things to add
 
