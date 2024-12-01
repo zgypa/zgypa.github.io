@@ -1,1070 +1,347 @@
-<!doctype html>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-	<title>Toni Magni  - Biomedical Engineer</title>
-	<style>
-  	:root {
-  --accent:#BC1B39;
-  --anchor-color: #2C85B1;
-  --blue:#2C85B1;
-  --copy-color-light: #666666;
-  --copy-color: #242424;
-  --grey:#999999;
-  --light-grey:#ededed;
-  --white:#FFFFFF;
-  --base-font-size: 12pt;
-  --spacing-double: 1rem;
-  --spacing-small: .1rem;
-  --spacing: .5rem;
-}
-@media (min-width: 567px) {
-  :root {
-    --spacing-double: 1.5rem;
-    --spacing-small: .25rem;
-    --spacing: .75rem;
-  }
-}
-@media print {
-  :root {
-    --anchor-color: #000000;
-    --base-font-size: 9pt;
-    --copy-color-light: #000000;
-    --copy-color: #000000;
-  }
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toni Magni</title>
+    <link href='//fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+		body {
+			font-size: 62.5%;
+			font-family: Montserrat;
+			color: #333333;
+		}
+		.picture {
+			border-radius: 50%;
+			margin: 0 auto;
+		}
+		a {
+			color: #333333;
+			text-decoration: none;
+		}
+		a:visited {
+			color: #4e4e4e;
+		}
+		a:hover {
+			color: #4e4e4e;
+			text-decoration: underline;
+		}
+		
+		.header {
+			text-align:center;
+			font-size: 2em;
+			margin-top:1em;
+			margin-left:5%;
+			margin-right:5%;
+		}
+		h1 {
+			font-size:3em;
+			margin-bottom:0;
+		}
+		.profile {
+			font-family: Montserrat;
+			font-size: 1em;
+			margin:0;
+		}
 
-body {
-  color: var(--copy-color);
-  display: flex;
-  font: var(--base-font-size) "Open Sans", Helvetica, Arial, sans-serif;
-  justify-content: center;
-  line-height: 1.25;
-  -webkit-print-color-adjust: exact;
-}
+		.contact-header {
+			font-weight:bold;
+		}
+		.label {
+			margin-top: 0;
+			margin-bottom: 1em;
+		}
+		.fa {
+			font-size:2em;
+		}
+		.left {
+			font-size: 1em;
+		}
+		.main {
+			margin 0 auto;
+			margin-left: 10%;
+			margin-right: 10%;
+			margin-bottom: 50px;
+		}
+		h2 {
+			font-size: 3.5em;
+		}
+		h3 {
+			font-size:2em;
+			margin-bottom:0;
+		}
+		h4 {
+			color: #4e4e4e;
+			font-size:1.5em;
+			margin-top:0;
+		}
+		.skills {
+			margin-bottom: 10px;
+		}
+		p {
+			font-family: 'Open Sans';
+			font-size: 1.5em;
+		}
+		li {
+			font-family: 'Open Sans';
+			font-size: 1.5em;
+		}
+		.keywords {
+			background-color: #333333;
+			color:#fff;
+			padding: 6px;
+			font-size: 1.2em;
+			margin-bottom: 5px;
+			display:inline-block;
+		}
+		blockquote {
+			margin: 2em 10px;
+  			padding: 1em 10px;
+			border-left: 10px solid #edf0f5;
+			font-family: 'Open Sans';
+			font-size: 1.5em;
+		}
+		blockquote .name {
+			font-weight:bold;
+			font-family: "Montserrat";
+		}
+		.responsive-show {
+			display:none;
+		}
+		@media (max-width: 1000px) {
+  			.header {
+    			font-size: 1.66em;
+  			}
+  			h2 {
+  				font-size: 3em;
+  			}
+		}
+		@media (max-width: 500px) {
+			p {
+				font-size:1.2em;
+			}
+			li {
+				font-size:1.2em;
+			}
+			blockquote {
+				font-size:1.2em;
+			}
+			h2 {
+				font-size:2.3em;
+			}
+			.responsive-hidden {
+				display:none;
+				visibility: hidden;
+			}
+			.responsive-show {
+				display:inline;
+				visibility: visible;
+			}
+		}
+    </style>
+	<script src= "//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+  </head>
+  <body>
+	<div class= "header">
+		<h1>TONI MAGNI</h1>
+		<h3 class= "label">BIOMEDICAL ENGINEER</h3>
+		<div class= "contact-header">
+				Rossiglione, IT<br>
+				Valle Berlino 151
+			</div>
+		<div id= "contact">
+			<br>
+			<div class= "contact-header">
+				EMAIL <span class= "responsive-hidden">&bull;</span> <span class= "responsive-show"><br></span><a href= "mailto:email@antoniomagni.com" target= "_blank">email@antoniomagni.com</a> <span class= "responsive-show"><br><br></span>
+			</div>
+			<div class= "contact-header">
+				PHONE <span class= "responsive-hidden">&bull;</span> <span class= "responsive-show"><br></span>+1(678)465-8120 <span class= "responsive-show"><br><br></span>
+			</div>
+		</div>
+		<br>
+		<div id= "profiles">
+			<div class= "contact-header">PROFILES</div><br>
+			<p class= "profile"><a href= "matrix:user&#x2F;zgypa:matrix.org" target= "_blank" class= "profile">matrix</a></p>
+			<p class= "profile"><a href= "https:&#x2F;&#x2F;github.com&#x2F;zgypa" target= "_blank" class= "profile">github</a></p>
+			<p class= "profile"><a href= "https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;toni-magni-84437042&#x2F;" target= "_blank" class= "profile">LinkedIn</a></p>
+		</div>		
+	</div>
+	<div class= "main">
+		<div id= "about">
+			<h2><i class= "fa fa-user left"></i> ABOUT</h2>
+			<p>
+				Medical software interoperability with a focus on orthodontic practices. My goal is to help bring current state of the art software to the medical domain, by laying down the fundamental infrastructure for progress: making the implementation of medical software standards simple and easy.
+			</p>
+		</div>
+		<div id= "volunteer">
+			<h2><i class= "fa fa-child left"></i> VOLUNTEER WORK</h2>
+      <h3>Clinical Instructor<br><small>Department of Orthodontics, Case Western Reserve University</small></h3>
+			<h4>December 2021 – </h4>
+			<p>Clinical informatics instructor and researcher.<br><a href= "" target= "_blank"></a></p>
+			<h4>HIGHLIGHTS</h4>
+			<ul>
+				<li>Responsible for DICOM-ization of Bolton Brush Legacy Collection</li>
+			</ul>
+      <h3>Working Group Chair<br><small>American Dental Association Standards Committee</small></h3>
+			<h4>February 2005 – </h4>
+			<p>Working Group Chair<br><a href= "" target= "_blank"></a></p>
+			<h4>HIGHLIGHTS</h4>
+			<ul>
+				<li>Awarded &#39;Volunteer of the Month&#39;</li>
+			</ul>
+      <h3>Research Associate<br><small>Bolton Brush Growth Study Center, Case Western Reserve University</small></h3>
+			<h4>August 2006 – August 2010</h4>
+			<p>Development of orthodontic and cephalometric informatics standard, software consulting.<br><a href= "" target= "_blank"></a></p>
+      <h3>Biomedical Engineer<br><small>Vascular Research Center MetroHealth Campus, Case Western Reserve University</small></h3>
+			<h4>September 2000 – May 2001</h4>
+			<p>Implementation in MATLAB of algorithm to measure T-wave alternans from intracardiac potentials.<br><a href= "" target= "_blank"></a></p>
+		</div>
+		<div id= "skills">
+			<h2><i class= "fa fa-tasks left"></i> SKILLS</h2>
+				<h3 class= "skills">system administration and devops</h3>
+				<span class= "keywords">ipv4</span>
+				<span class= "keywords">ipv6</span>
+				<span class= "keywords">docker</span>
+				<span class= "keywords">linux routing</span>
+				<span class= "keywords">bsd routing</span>
+				<span class= "keywords">zfs</span>
+				<span class= "keywords">truenas</span>
+				<span class= "keywords">openwrt</span>
+				<span class= "keywords">proxmox</span>
+				<span class= "keywords">hyper-v</span>
+				<span class= "keywords">vmware</span>
+				<span class= "keywords">virtualbox</span>
+				<span class= "keywords">kvm</span>
+				<span class= "keywords">tor</span>
+				<span class= "keywords">freepbx</span>
+				<span class= "keywords">asterisk</span>
+				<span class= "keywords">voip</span>
+				<h3 class= "skills">cyber security</h3>
+				<span class= "keywords">openvpn</span>
+				<span class= "keywords">pki</span>
+				<span class= "keywords">ssh</span>
+				<span class= "keywords">wireguard</span>
+				<span class= "keywords"></span>
+				<h3 class= "skills">project management</h3>
+				<span class= "keywords">agile workflow</span>
+				<span class= "keywords">jira</span>
+				<span class= "keywords">confluence</span>
+				<span class= "keywords">mediawiki</span>
+				<span class= "keywords">dolibarr</span>
+				<h3 class= "skills">programming</h3>
+				<span class= "keywords">python</span>
+				<span class= "keywords">java</span>
+				<span class= "keywords">posix shell</span>
+				<span class= "keywords">github</span>
+				<span class= "keywords">gitlab</span>
+				<span class= "keywords">git flow</span>
+				<h3 class= "skills">machine learning</h3>
+				<span class= "keywords">pytorch</span>
+				<h3 class= "skills">web development</h3>
+				<span class= "keywords">html</span>
+				<span class= "keywords">css</span>
+				<span class= "keywords">javascript</span>
+				<h3 class= "skills">clinical informatics</h3>
+				<span class= "keywords">enterprise imaging</span>
+				<span class= "keywords">orthanc</span>
+				<span class= "keywords">dicom</span>
+				<span class= "keywords">hl7</span>
+				<span class= "keywords">ihe</span>
+				<span class= "keywords">snomed</span>
+				<span class= "keywords">iso</span>
+				<span class= "keywords">ansi</span>
+		</div><br>
+		<div id= "education">
+			<h2><i class= "fa fa-graduation-cap left"></i> EDUCATION</h2>
+      <h3>Masters of Science, Electrical Engineering, Computer Networking<br><small>Universidade de Brasília</small></h3>
+				<h4>January 2003 – August 2006</h4>
+      <h3>Bachelor of Science, Biomedical Engineering<br><small>Case Western Reserve University</small></h3>
+				<h4>August 1996 – May 2001</h4>
+      <h3>German Abitur, Maturità Italiana, <br><small>Deutsche Schule Genua</small></h3>
+				<h4>September 1982 – June 1996</h4>
+		</div>
+		<div id= "awards">
+			<h2><i class= "fa fa-trophy left"></i> AWARDS</h2>
+				<h3>Standards Committee on Dental Informatics (SCDI) Volunteer Award - American Dental Association</h3>
+				<h4>  2010</h4>
+				<p>The Standards Committee on Dental Informatics (SCDI) Volunteer Award is intended to recognize the “unsung heroes” who participate in the development of dental product standards and technical reports. The SCDI Volunteer Award will honor annually an individual (not currently serving in an officer position, i.e. SCDI Chair&#x2F;Vice Chair, Subcommittee Chair&#x2F;Vice Chair) who has made significant contributions to the dental product standards program through exceptional donations of time and expertise.</p>
+		</div>
+		<div id= "publications">
+			<h2><i class= "fa fa-book left"></i> PUBLICATIONS</h2>
+				<h3> ANSI&#x2F;ADA 1100-2022</h3>
+				<h4>  2021</h4>
+				<p>Codes for Orthodontic&#x2F;Craniofacial&#x2F;Forensic Photographic Views and View Sets. High quality photographic documentation is central to optimizing orthodontic, craniofacial, and forensic clinical records. This white paper shows how codes, enumerated terms, systematized nomenclature, templates and informatics standards can be used to improve the interoperability and transmissibility of visible light intraoral and extraoral clinical photographs.<br><a href= "" target= "_blank"></a></p>
+				<h3>ADA TR 1065-2019</h3>
+				<h4>  2019</h4>
+				<p>Use Cases of the Orthodontic Electronic Health Record. The purpose of this technical report is to create an approved list of common use-cases that define the utilization of the electronic health record within the scope of orthodontics.<br><a href= "" target= "_blank"></a></p>
+				<h3>ADA Technical Report No. 1085 Guidelines for the Secure Transmission of Protected Health</h3>
+				<h4>  2015</h4>
+				<p>This report provides a technical specification based on the Direct Secure Messaging Protocol for the secure electronic transmission of all protected health information (PHI) in dentistry. <br><a href= "" target= "_blank"></a></p>
+				<h3>ADA TR 1048-2011</h3>
+				<h4>  2011</h4>
+				<p>ADA Technical Report No. 1048 for Attachment of DICOM Dataset Using E-Mail. This report promotes patient care and oral health through the application of information technology to dentistry&#39;s clinical and administrative operations; to develop standards, Standards and technical reports. (2011, R2015)<br><a href= "" target= "_blank"></a></p>
+				<h3>ADA Technical Report No. 1060</h3>
+				<h4>  2011</h4>
+				<p>The Secure Exchange and Utilization of Digital Images in Dentistry. This report promotes patient care and oral health through the application of information technology to dentistry&#39;s clinical and administrative operations; to develop standards, Standards and technical reports. (2011, R2015)<br><a href= "" target= "_blank"></a></p>
+				<h3>ANSI&#x2F;ADA 1058-2010 (R2020)</h3>
+				<h4>  2010</h4>
+				<p>Forensic Dental Data Set. This report promotes patient care and oral health through the application of information technology to dentistry&#39;s clinical and administrative operations; to develop standards, Standards and technical reports.<br><a href= "" target= "_blank"></a></p>
+				<h3>ADA TR 1059-2010 (R2023)</h3>
+				<h4>  2010</h4>
+				<p>ADA Technical Report No.1059 Guidelines for the Application of the DICOM Standard to Radiographic - ADA1059-2020. In the current DICOM documentation, cephalograms are not addressed directly. This technical report (TR) was developed to fill the gap in such a way as to provide imaging equipment vendors an approved way of storing cephalograms along with their clinically relevant data, in an interoperable way.<br><a href= "" target= "_blank"></a></p>
+				<h3>Cone beam computed tomography and the orthodontic office of the future</h3>
+				<h4> March 2009</h4>
+				<p>the use of technological devices has not always successfully increased the efficiency of orthodontic practices. often, new technology is introduced into the practice too soon, effectively interrupting the learning process of their older counterparts and hindering optimization. consequently, the ultimate goal of efficiency can easily become eclipsed by indulging into new orthodontic gadgets.cone beam computed tomography can similarly get in the way, if the users are not aware of such phenomena. in this article the author relates how these can negatively affect efficiency, while explaining the role of software interoperability for the ergonomics of the orthodontic practice. some suggestions on how to prepare for the future are provided.<br><a href= "" target= "_blank"></a></p>
+				<h3>Solving incompatibilities between electronic records for orthodontic patients</h3>
+				<h4> July 2007</h4>
+				<p>Today, orthodontists should not need to burden their work load with tasks such as figuring out how to send patient information to colleagues or how to share the same patient record across different software programs. In a long-term attempt to lighten these tasks, we are developing a standard for electronic orthodontic patient records to enable a seamless interchange of data between software programs. This article describes a practical proposal that integrates 2 existing standards, HL7 and DICOM, to create a standard for electronic orthodontic patient records.<br><a href= "" target= "_blank"></a></p>
+				<h3>Proposta e implementação de um padrão para softwares ortodônticos</h3>
+				<h4>  2006</h4>
+				<p>46 f., il. Dissertação (Mestrado em Engenharia Elétrica)-Universidade de Brasília, Brasília, 2006. (Masters Thesis)<br><a href= "" target= "_blank"></a></p>
+				<h3>PANIO: The first orthodontic standard</h3>
+				<h4>  2005</h4>
+				<p>Poster.<br><a href= "" target= "_blank"></a></p>
+		</div>
+		<div id= "interests">
+			<h2><i class= "fa fa-star left"></i> INTERESTS</h2>
+				<h3 class= "skills">acting</h3>
+				<h3 class= "skills">music</h3>
+				<span class= "keywords">trombone</span>
+				<span class= "keywords">percussions</span>
+		</div>
+		<div id= "languages">
+			<h2><i class= "fa fa-language left"></i> LANGUAGES</h2>
+				<h3>italian</h3>
+				<h4>Fluency: native speaker</h4>
+				<h3>english</h3>
+				<h4>Fluency: native speaker</h4>
+				<h3>german</h3>
+				<h4>Fluency: advanced</h4>
+				<h3>portuguese (brazil)</h3>
+				<h4>Fluency: intermediate</h4>
+		</div>
+		<div id= "references">
+			<h2><i class= "fa fa-thumbs-up left"></i> REFERENCES</h2>
+			<blockquote>
+				I&#39;ve had the opportunity to test his professional and interpersonal skills on many occasions. Engineer Magni is an honest, trustworthy, and highly skilled professional. The project to promote computer interoperability in as many sectors as possible is the right one. In the field of medicine and orthodontics, orthodontic computer interoperability is an urgent necessity, based on principles of professional ethics and transparency towards patients.
+				<div class= "name"><br>- dr. Marco Rosa</div>
+			</blockquote><br>
+			<blockquote>
+				Engineer Antonio Magni has been collaborating with our orthodontic practice as an IT expert for more than ten years now. He has always ensured the smooth functioning of our management software and the entire network infrastructure with great dedication and availability. Over these years, a relationship of friendship and mutual trust has developed between him and the members of the practice. This allows me to affirm that Antonio, or Toni as we call him, is a highly skilled IT professional and a friendly, reliable, punctual, and honest person. I can only wish him the best for the continuation of his professional career, hoping, although I have no doubts, that he will continue to come to our rescue with IT challenges in the future! Thank you, Toni, from all of us!
+				<div class= "name"><br>- dr. Andrea Compri</div>
+			</blockquote><br>
+			<blockquote>
+				Toni has been very active in committing his time to improving standards and guidelines for digital dentistry over several years... with special emphasis on orthodontics. He has been totally dependable and has followed through on all tasks assigned to him.
+				<div class= "name"><br>- dr. Allan G. Farman</div>
+			</blockquote><br>
+			<blockquote>
+				I first met Toni and worked with him on the Standards Committee on Dental Informatics for the ADA and AAO. His contributions are significant and his dedication to detail of this important area.
+				<div class= "name"><br>- dr. Bill Harrell</div>
+			</blockquote><br>
+		</div>
 
-em {
-  color: var(--grey);
-}
-
-p {
-  font-size: 90%;
-}
-
-a {
-  color: var(--anchor-color);
-  font-weight: 400;
-  text-decoration: none;
-}
-
-ul {
-  margin-bottom: 0;
-}
-
-section {
-  margin: var(--spacing) 0 var(--spacing-double);
-}
-
-blockquote {
-  margin-bottom: 0 0 var(--spacing);
-}
-
-#resume {
-  background: var(--white);
-  margin: var(--spacing) var(--spacing-double);
-  max-width: 760px;
-}
-
-section.heading header h1 {
-  font-size: 180%;
-  font-weight: 300;
-  margin: 0;
-}
-section.heading header h2 {
-  font-size: 140%;
-  font-weight: 400;
-  margin: 0;
-}
-section.heading header h2::after {
-  display: none;
-}
-section.heading header .contact {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: var(--spacing);
-}
-@media (min-width: 567px) {
-  section.heading header .contact {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-section.heading header address {
-  font-size: 90%;
-  font-style: normal;
-  padding-bottom: var(--spacing);
-}
-section.heading .profiles {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: var(--spacing);
-}
-@media (min-width: 567px) {
-  section.heading .profiles {
-    flex-direction: row;
-    justify-content: start;
-  }
-}
-section.heading .profiles .profile.print {
-  display: none;
-}
-@media print {
-  section.heading .profiles .profile.print {
-    display: block;
-  }
-}
-section.heading .profiles strong {
-  margin: 0 var(--spacing-small) 0 0;
-}
-section.heading .profiles span {
-  margin: 0 var(--spacing-double) 0 0;
-}
-
-section.experience .item {
-  border-bottom: 1px solid var(--light-grey);
-  margin: 0 0 0.5em;
-  padding: 0 0 0.5em;
-}
-section.experience .item:last-child {
-  border-bottom: none;
-}
-section.experience .item header a,
-section.experience .item header h3 {
-  color: var(--copy-color);
-  display: inline-block;
-  font-weight: 400;
-  text-decoration: none;
-}
-@media (max-width: 566px) {
-  section.experience .item header .subhead {
-    flex-direction: column;
-    margin-bottom: var(--spacing-double);
-  }
-}
-section.experience .item .summary p {
-  margin-top: var(--spacing);
-}
-section.experience .item .summary p:first-child {
-  margin-top: var(--spacing-small);
-}
-section.experience .item .summary p:last-child {
-  margin-bottom: var(--spacing-small);
-}
-section.experience .item .position {
-  color: var(--copy-color-light);
-  font-size: 100%;
-  font-weight: 500;
-  margin: var(--spacing-small) 0;
-}
-section.experience .item .startDate,
-section.experience .item .endDate {
-  color: var(--grey);
-}
-section.skills .item {
-  margin: 0;
-  padding: 0 0 var(--spacing);
-}
-section.skills .item:first-child {
-  margin-top: var(--spacing);
-}
-section.skills .item:last-child {
-  margin-bottom: var(--spacing);
-}
-section.skills .item .name {
-  display: inline-block;
-  font-size: 90%;
-  font-weight: 600;
-  margin: 0 var(--spacing) 0 0;
-  text-transform: uppercase;
-  vertical-align: top;
-  white-space: nowrap;
-}
-section.skills .item .level {
-  font-size: 90%;
-  font-style: italic;
-  white-space: nowrap;
-  vertical-align: top;
-}
-section.skills .item .keywords {
-  display: inline-block;
-  font-size: 90%;
-  vertical-align: top;
-}
-
-section.volunteering .item .position {
-  font-weight: 600;
-}
-section.volunteering .item header .subhead {
-  margin-top: var(--spacing);
-}
-section.projects .item strong {
-  color: var(--copy-color-light);
-  font-weight: 600;
-  display: inline-block;
-  padding-top: var(--spacing);
-}
-section.awards .item .title {
-  font-weight: 600;
-}
-section.publications .item .name {
-  font-weight: 600;
-}
-section.languages .language-item {
-  align-items: baseline;
-  display: flex;
-  justify-content: start;
-}
-section.languages .language-item:first-child {
-  margin-top: var(--spacing);
-}
-section.languages .language-item:last-child {
-  margin-bottom: var(--spacing);
-}
-section.languages .language-item .language {
-  display: inline-block;
-  font-size: 90%;
-  font-weight: 600;
-  margin: 0 var(--spacing) 0 0;
-  text-transform: uppercase;
-  vertical-align: top;
-  white-space: nowrap;
-}
-section.languages .language-item .fluency {
-  color: var(--copy-color-light);
-  font-style: italic;
-}
-
-section.interests .item {
-  margin-bottom: var(--spacing);
-}
-section.interests .item:last-child {
-  margin-bottom: var(--spacing);
-}
-section.interests .item .name {
-  display: inline-block;
-  font-size: 90%;
-  font-weight: 600;
-  margin: 0 var(--spacing) 0 0;
-  text-transform: uppercase;
-  vertical-align: top;
-  white-space: nowrap;
-}
-
-section.references .item blockquote {
-  font-style: italic;
-  margin-bottom: 0;
-  margin-left: var(--spacing);
-}
-section.references .item .name {
-  color: var(--copy-color-light);
-}
-
-section h2 {
-  color: var(--accent);
-  font-size: 135%;
-  font-weight: 400;
-  margin: 0 0 var(--spacing-double);
-  position: relative;
-  text-transform: uppercase;
-}
-section h2::after {
-  background: var(--accent);
-  bottom: -10px;
-  content: " ";
-  display: inline-block;
-  height: 3px;
-  left: 0;
-  position: absolute;
-  width: 2.5rem;
-}
-section header h3 {
-  margin: 0;
-  font-weight: 600;
-}
-
-section.experience .item .highlights, section.volunteering .highlights, section.projects .highlights,
-section.projects .keywords,
-section.projects .roles, section.education .item .courses {
-  font-size: 90%;
-  line-height: 1.3;
-  list-style: square;
-  margin: var(--spacing-small) 0 var(--spacing);
-  padding-left: var(--spacing-double);
-}
-
-section.experience .item, section.volunteering .item, section.projects .item, section.education .item, section.certificates .item, section.awards .item, section.publications .item, section.interests .item, section.references .item {
-  page-break-inside: avoid;
-}
-
-@media print {
-  section.heading .profiles .profile:not(.print), section.publications .item .website {
-    display: none;
-  }
-}
-
-section.experience .item header .subhead, section.volunteering .item header .subhead, section.projects .item header, section.education .item header, section.certificates .item header, section.awards .item header, section.publications .item .subhead {
-  align-items: baseline;
-  display: flex;
-  justify-content: space-between;
-}
-@media (min-width: 567px) {
-  section.experience .item header .subhead, section.volunteering .item header .subhead, section.projects .item header, section.education .item header, section.certificates .item header, section.awards .item header, section.publications .item .subhead {
-    flex-direction: row;
-  }
-}
-
-@media print {
-  body {
-    font-size: 11pt;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-	</style>
-	<style media="print">
-		body { font-size: 12px; }
-	</style>
-
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
-	
-	</head>
-  <body>	
-    <div id="resume">
-      <section id="heading" class="heading">
-        <header>
-          <h1>
-            Toni Magni
-          </h1>
-          <h2>Biomedical Engineer</h2>
-          <div class="summary"><p>Medical software interoperability with a focus on orthodontic practices. My goal is to help bring current state of the art software to the medical domain, by laying down the fundamental infrastructure for progress: making the implementation of medical software standards simple and easy.</p></div>
-          <div class="contact">
-            <span class="contact-detail"><a href="mailto:email@antoniomagni.com">email@antoniomagni.com</a></span>
-            <span class="contact-detail">+1(678)465-8120</span>
-            <span class="contact-detail"><a href="https://www.antoniomagni.com" target="external">https://www.antoniomagni.com</a></span>
-          </div>
-          <address>
-            <span class="address-detail">Piazza Mostra 19</span>
-            <span class="address-detail">Trento,</span>
-            <span class="address-detail">Trentino</span>
-            <span class="address-detail">TN, 38122</span>
-            <span class="address-detail">IT</span>
-          </address>
-        </header>
-      
-        <div class="profiles">
-          <div class="profile">
-            <strong class="network">matrix</strong>
-            <span class="username">
-              <a href="matrix:user/zgypa:matrix.org" target="external">@zgypa</a>
-            </span>
-          </div>
-          <div class="profile print">
-            <span class="username">
-              matrix:user/zgypa:matrix.org
-            </span>
-          </div>
-          <div class="profile">
-            <strong class="network">github</strong>
-            <span class="username">
-              <a href="https://github.com/zgypa" target="external">@zgypa</a>
-            </span>
-          </div>
-          <div class="profile print">
-            <span class="username">
-              https://github.com/zgypa
-            </span>
-          </div>
-          <div class="profile">
-            <strong class="network">LinkedIn</strong>
-            <span class="username">
-              <a href="https://www.linkedin.com/in/toni-magni-84437042/" target="external">@toni-magni-84437042</a>
-            </span>
-          </div>
-          <div class="profile print">
-            <span class="username">
-              https://www.linkedin.com/in/toni-magni-84437042/
-            </span>
-          </div>
-        </div>
-      </section>
-      <section id="experience" class="experience">
-        <section class="item">
-          <h2>Experience</h2>
-          <header>
-            <h3 class="name"><a href="https://medoco.health" target="external">Medoco Health</a></h3>
-            <div class="subhead">
-            <span class="position">CTO (Chief Technology Officer)</span>
-                  <small class="dates">Dec 2023
-              - Present</small>
-            </div>
-          </header>
-          <div class="summary"><p>Simple solutions based on established enterprise standards.</p></div>
-          <ul class="highlights">
-            <li>Interoperability specialists</li>
-            <li>Open-standards software solutions</li>
-          </ul>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name"><a href="https://ortocomputer.com" target="external">Ortocomputer</a></h3>
-            <div class="subhead">
-            <span class="position">Owner</span>
-                  <small class="dates">Dec 2012
-              - Present</small>
-            </div>
-          </header>
-          <div class="summary"><p>Orthodontic Practice Informatics Developer and Consultant</p></div>
-          <ul class="highlights">
-            <li>Interoperability specialists</li>
-            <li>Open-standards software solutions</li>
-            <li>Maintenance of servers and workstations</li>
-            <li>provide and quote telecommunication solutions for orthodontic practices</li>
-            <li>network technician.</li>
-          </ul>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name"><a href="https://topsortho.com" target="external">tops Software</a></h3>
-            <div class="subhead">
-            <span class="position">European Process Engineer</span>
-                  <small class="dates">Feb 2007
-                  - Apr 2022</small>
-            </div>
-          </header>
-          <div class="summary"><p>Devops, technical support, training and sales in Europe;</p></div>
-          <ul class="highlights">
-            <li>Installation and implementation tasks</li>
-            <li>Research and development of software and procedures to improve efficiency of internal implementation and support processes</li>
-            <li>Sales</li>
-          </ul>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name"><a href="http://securitycam.com.br" target="external">SecurityCam</a></h3>
-            <div class="subhead">
-            <span class="position">Senior Developer</span>
-                  <small class="dates">Mar 2003
-                  - Feb 2004</small>
-            </div>
-          </header>
-          <div class="summary"><p>JAVA web-based multi-platform remote management for security videos financed by the government agency "Funding Authority for Studies and Projects" and managed by the center for technological development of the university of Brasília in collaboration with the company "Aeronet Informática]". (original: Sistema de Monitoramento Remoto por Images financiado pelo FINEP e coordenado pelo CDT-UNB e, pelo interveniente Aeronet Informática.)</p></div>
-          <ul class="highlights">
-            <li>Led and supervised a team of three developers.</li>
-            <li>Designed the software architecture and database schema.</li>
-          </ul>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name"><a href="https://www.uhhospitals.org/services/neurology-and-neurosurgery/institute" target="external">Neurological Surgery Department, University Hospitals Health Systems</a></h3>
-            <div class="subhead">
-            <span class="position">Operating Room Technician</span>
-                  <small class="dates">Dec 1998
-                  - Dec 2000</small>
-            </div>
-          </header>
-          <div class="summary"><p>Oversaw the operation and maintenance of a UNIX-based stereotactic surgical navigation system in neurosurgery operating rooms.</p></div>
-          <ul class="highlights">
-            <li>Hands-on experience with patient care, including the placement of fiducial markers on patients&#x27; heads before surgical procedures.</li>
-            <li>Strong background in the unique and specialized setting of neurosurgery operating rooms.</li>
-            <li>Worked on call demonstrating the ability to respond promptly to emergent situations and make critical decisions to ensure patient care.</li>
-          </ul>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name"><a href="https://orthodontics.case.edu" target="external">Department of Orthodontics, Case Western Reserve University</a></h3>
-            <div class="subhead">
-            <span class="position">System Administrator</span>
-                  <small class="dates">Sep 1996
-                  - Aug 1998</small>
-            </div>
-          </header>
-          <ul class="highlights">
-            <li>Administered UNIX Silicon Graphics Workstations with IRIX.</li>
-            <li>Set up and Administered department web site on Linux.</li>
-            <li>Contributed to the design, development, and testing of a high-resolution, cost-effective 3D surface imaging equipment.</li>
-          </ul>
-        </section>
-      </section>
-      <section id="skills" class="skills">
-        <div class="item">
-          <h2>Skills</h2>
-          <div class="subhead">
-            <span class="name">system administration and devops</span>
-            <span class="level">master</span>
-          </div>
-          <div class="keywords">
-            ipv4,
-            ipv6,
-            docker,
-            linux routing,
-            bsd routing,
-            zfs,
-            truenas,
-            openwrt,
-            proxmox,
-            hyper-v,
-            vmware,
-            virtualbox,
-            kvm,
-            tor,
-            freepbx,
-            asterisk,
-            voip
-          </div>
-        </div>
-        <div class="item">
-          <div class="subhead">
-            <span class="name">cyber security</span>
-            <span class="level">competent</span>
-          </div>
-          <div class="keywords">
-            openvpn,
-            pki,
-            ssh,
-            wireguard,
-            
-          </div>
-        </div>
-        <div class="item">
-          <div class="subhead">
-            <span class="name">project management</span>
-            <span class="level">advanced</span>
-          </div>
-          <div class="keywords">
-            agile workflow,
-            jira,
-            confluence,
-            mediawiki,
-            dolibarr
-          </div>
-        </div>
-        <div class="item">
-          <div class="subhead">
-            <span class="name">programming</span>
-            <span class="level">competent</span>
-          </div>
-          <div class="keywords">
-            python,
-            java,
-            posix shell,
-            github,
-            gitlab,
-            git flow
-          </div>
-        </div>
-        <div class="item">
-          <div class="subhead">
-            <span class="name">machine learning</span>
-            <span class="level">intermediate</span>
-          </div>
-          <div class="keywords">
-            pytorch
-          </div>
-        </div>
-        <div class="item">
-          <div class="subhead">
-            <span class="name">web development</span>
-            <span class="level">competent</span>
-          </div>
-          <div class="keywords">
-            html,
-            css,
-            javascript
-          </div>
-        </div>
-        <div class="item">
-          <div class="subhead">
-            <span class="name">clinical informatics</span>
-            <span class="level">proficient</span>
-          </div>
-          <div class="keywords">
-            enterprise imaging,
-            orthanc,
-            dicom,
-            hl7,
-            ihe,
-            snomed,
-            iso,
-            ansi
-          </div>
-        </div>
-      </section>
-      <section id="certificates" class="certificates">
-        <div class="item">
-          <h2>Certificates</h2>
-          <header>
-              <h3 class="name">IHE Certified Professional</h3>
-            <small class="dates">
-              <span class="endDate"> - Present</span>
-            </small>
-          </header>
-          <div class="issuer_container">
-            <span class="issuer">IHE Foundations</span>
-            <span class="url_container">
-                  <a href="https://ihe.net" target="external">https://ihe.net</a>
-            </span>
-          </div>
-        </div>
-        <div class="item">
-          <header>
-              <h3 class="name">Introduction to Marketing</h3>
-            <small class="dates">
-              <span class="endDate"> - Present</span>
-            </small>
-          </header>
-          <div class="issuer_container">
-            <span class="issuer">Coursera</span>
-            <span class="url_container">
-                  <a href="https://www.coursera.org/account/accomplishments/certificate/2EA8G77N6PWK" target="external">https://www.coursera.org/account/accomplishments/certificate/2EA8G77N6PWK</a>
-            </span>
-          </div>
-        </div>
-        <div class="item">
-          <header>
-              <h3 class="name">Understand Your Cybersecurity Threats</h3>
-            <small class="dates">
-              <span class="endDate"> - Present</span>
-            </small>
-          </header>
-          <div class="issuer_container">
-            <span class="issuer">HIMSS</span>
-            <span class="url_container">
-              
-            </span>
-          </div>
-        </div>
-        <div class="item">
-          <header>
-              <h3 class="name">Cryptography</h3>
-            <small class="dates">
-              <span class="endDate"> - Present</span>
-            </small>
-          </header>
-          <div class="issuer_container">
-            <span class="issuer">Coursera</span>
-            <span class="url_container">
-                  <a href="https://www.coursera.org/account/accomplishments/certificate/3CDXHRNKW8MG" target="external">https://www.coursera.org/account/accomplishments/certificate/3CDXHRNKW8MG</a>
-            </span>
-          </div>
-        </div>
-        <div class="item">
-          <header>
-              <h3 class="name">Software Security</h3>
-            <small class="dates">
-              <span class="endDate"> - Present</span>
-            </small>
-          </header>
-          <div class="issuer_container">
-            <span class="issuer">Coursera</span>
-            <span class="url_container">
-                  <a href="https://www.coursera.org/account/accomplishments/certificate/A62QXP2H7K" target="external">https://www.coursera.org/account/accomplishments/certificate/A62QXP2H7K</a>
-            </span>
-          </div>
-        </div>
-        <div class="item">
-          <header>
-              <h3 class="name">Usable Security</h3>
-            <small class="dates">
-              <span class="endDate"> - Present</span>
-            </small>
-          </header>
-          <div class="issuer_container">
-            <span class="issuer">Coursera</span>
-            <span class="url_container">
-                  <a href="https://www.coursera.org/account/accomplishments/certificate/FJLPBGNEKK" target="external">https://www.coursera.org/account/accomplishments/certificate/FJLPBGNEKK</a>
-            </span>
-          </div>
-        </div>
-        <div class="item">
-          <header>
-              <h3 class="name">Indoor Skydiving</h3>
-            <small class="dates">
-              <span class="endDate"> - Present</span>
-            </small>
-          </header>
-          <div class="issuer_container">
-            <span class="issuer">iFly Indoor Skydiving</span>
-            <span class="url_container">
-                  <a href="https://www.iflyworld.com/" target="external">https://www.iflyworld.com/</a>
-            </span>
-          </div>
-        </div>
-      </section>
-      <section id="volunteering" class="volunteering">
-        <div class="item">
-          <h2>Volunteering</h2>
-          <header>
-            <h3 class="name">Department of Orthodontics, Case Western Reserve University</h3>
-            <div class="subhead">
-              <span class="position">Clinical Instructor</span>
-              <small class="startDate">Nov 2021
-              - Present</small>
-            </div>
-          </header>
-          <div class="summary">Clinical informatics instructor and researcher.</div>
-          <ul class="highlights">
-            <li>Responsible for DICOM-ization of Bolton Brush Legacy Collection</li>
-          </ul>
-        </div>
-        <div class="item">
-          <header>
-            <h3 class="name">American Dental Association Standards Committee</h3>
-            <div class="subhead">
-              <span class="position">Working Group Chair</span>
-              <small class="startDate">Jan 2005
-              - Present</small>
-            </div>
-          </header>
-          <div class="summary">Working Group Chair</div>
-          <ul class="highlights">
-            <li>Awarded &#x27;Volunteer of the Month&#x27;</li>
-          </ul>
-        </div>
-        <div class="item">
-          <header>
-            <h3 class="name">Bolton Brush Growth Study Center, Case Western Reserve University</h3>
-            <div class="subhead">
-              <span class="position">Research Associate</span>
-              <small class="startDate">Jul 2006
-              - Jul 2010</small>
-            </div>
-          </header>
-          <div class="summary">Development of orthodontic and cephalometric informatics standard, software consulting.</div>
-        </div>
-        <div class="item">
-          <header>
-            <h3 class="name">Vascular Research Center MetroHealth Campus, Case Western Reserve University</h3>
-            <div class="subhead">
-              <span class="position">Biomedical Engineer</span>
-              <small class="startDate">Aug 2000
-              - Apr 2001</small>
-            </div>
-          </header>
-          <div class="summary">Implementation in MATLAB of algorithm to measure T-wave alternans from intracardiac potentials.</div>
-        </div>
-      </section>
-      <section id="projects" class="projects">
-        <section class="item">
-          <h2>Projects</h2>
-          <header>
-            <h3 class="name">open-ortho</h3>
-            <small class="subhead">Dec 2018
-             - Present</small>
-          </header>
-            <strong>Roles</strong>
-          <ul class="roles">
-            <li>Team Lead</li>
-            <li>Software Developer</li>
-          </ul>
-            <div class="type">volunteer</div>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name">ovena</h3>
-            <small class="subhead">Dec 2018
-             - Present</small>
-          </header>
-            <strong>Roles</strong>
-          <ul class="roles">
-            <li>Main Developer</li>
-          </ul>
-            <div class="type">volunteer</div>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name">dicom4ortho</h3>
-            <small class="subhead">Apr 2020
-             - Present</small>
-          </header>
-            <strong>Roles</strong>
-          <ul class="roles">
-            <li>Main Developer</li>
-          </ul>
-            <div class="type">volunteer</div>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name">Sulla Strada Maestra</h3>
-            <small class="subhead">Dec 2017
-             - Jun 2018</small>
-          </header>
-            <strong>Roles</strong>
-          <ul class="roles">
-            <li>Actor, played the part of Tichon, the bartender.</li>
-          </ul>
-            <div class="type">performance</div>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name">Actor Nando</h3>
-            <small class="subhead">Sep 2014
-             - Feb 2015</small>
-          </header>
-          <strong>Highlights</strong>
-          <ul class="highlights">
-            <li>Recorded several videos with Screenfabula.</li>
-          </ul>
-            <div class="type">volunteer</div>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name">Dabbacchio</h3>
-            <small class="subhead">Dec 2012
-             - Dec 2013</small>
-          </header>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name">Calomito</h3>
-            <small class="subhead">Dec 2004
-             - Dec 2010</small>
-          </header>
-          <strong>Highlights</strong>
-          <ul class="highlights">
-            <li>2011: Recorded CD &quot;Cane Di Schiena&quot;. See https://calomito.bandcamp.com/album/cane-di-schiena.</li>
-          </ul>
-            <strong>Roles</strong>
-          <ul class="roles">
-            <li>Trombone Player</li>
-          </ul>
-        </section>
-      </section>
-      <section id="education" class="education">
-        <div class="item">
-          <h2>Education</h2>
-          <header>
-              <h3 class="name">Universidade de Brasília</h3>
-              <small class="dates">
-                <span class="startDate">Dec 2002</span>
-                <span class="endDate"> - Jul 2006</span>
-              </small>
-          </header>
-          <div class="qualification">
-            <span class="studyType">Masters of Science</span>
-            &mdash;
-            <span class="area">Electrical Engineering, Computer Networking</span>
-          </div>
-        </div>
-        <div class="item">
-          <header>
-              <h3 class="name">Case Western Reserve University</h3>
-              <small class="dates">
-                <span class="startDate">Dec 2010</span>
-                <span class="endDate"> - Dec 2012</span>
-              </small>
-          </header>
-          <div class="qualification">
-            <span class="studyType">Bachelor of Science</span>
-            &mdash;
-            <span class="area">Biomedical Engineering</span>
-          </div>
-        </div>
-        <div class="item">
-          <header>
-              <h3 class="name">Deutsche Schule Genua</h3>
-              <small class="dates">
-                <span class="startDate">Aug 1982</span>
-                <span class="endDate"> - May 1996</span>
-              </small>
-          </header>
-          <div class="qualification">
-            <span class="studyType">German Abitur, Maturità Italiana</span>
-          </div>
-        </div>
-      </section>
-      <section id="awards" class="awards">
-        <div class="item">
-          <h2>Awards</h2>
-          <header>
-            <div class="title">Standards Committee on Dental Informatics (SCDI) Volunteer Award</div>
-            <small class="date">Dec 2009</small>
-          </header>
-          <div class="awarder">American Dental Association</div>
-          <div class="summary"><span>The Standards Committee on Dental Informatics (SCDI) Volunteer Award is intended to recognize the “unsung heroes” who participate in the development of dental product standards and technical reports. The SCDI Volunteer Award will honor annually an individual (not currently serving in an officer position, i.e. SCDI Chair/Vice Chair, Subcommittee Chair/Vice Chair) who has made significant contributions to the dental product standards program through exceptional donations of time and expertise.</span></div>
-        </div>
-      </section>
-      <section id="publications" class="publications">
-        <div class="item">
-          <h2>Publications</h2>
-          <div class="name"> ANSI/ADA 1100-2022</div>
-          <div class="subhead">
-      
-          <div class="publisher">ANSI (American National Standards Institute)</div>
-          <small class="releaseDate">Dec 2020</small>
-          <div class="website"><a href="https://webstore.ansi.org/search/find?in=1&amp;st=ANSI%2FADA+1100-2022" target="external">Link</a></div>
-          </div>
-          <div class="summary">Codes for Orthodontic/Craniofacial/Forensic Photographic Views and View Sets. High quality photographic documentation is central to optimizing orthodontic, craniofacial, and forensic clinical records. This white paper shows how codes, enumerated terms, systematized nomenclature, templates and informatics standards can be used to improve the interoperability and transmissibility of visible light intraoral and extraoral clinical photographs.</div>
-        </div>
-        <div class="item">
-          <div class="name">ADA TR 1065-2019</div>
-          <div class="subhead">
-      
-          <div class="publisher">ANSI (American National Standards Institute)</div>
-          <small class="releaseDate">Dec 2018</small>
-          <div class="website"><a href="https://webstore.ansi.org/standards/ada/adatr10652019" target="external">Link</a></div>
-          </div>
-          <div class="summary">Use Cases of the Orthodontic Electronic Health Record. The purpose of this technical report is to create an approved list of common use-cases that define the utilization of the electronic health record within the scope of orthodontics.</div>
-        </div>
-        <div class="item">
-          <div class="name">ADA Technical Report No. 1085 Guidelines for the Secure Transmission of Protected Health</div>
-          <div class="subhead">
-      
-          <div class="publisher">ANSI (American National Standards Institute)</div>
-          <small class="releaseDate">Dec 2014</small>
-          <div class="website"><a href="https://webstore.ansi.org/standards/ada/adatr10852015" target="external">Link</a></div>
-          </div>
-          <div class="summary">This report provides a technical specification based on the Direct Secure Messaging Protocol for the secure electronic transmission of all protected health information (PHI) in dentistry. </div>
-        </div>
-        <div class="item">
-          <div class="name">ADA TR 1048-2011</div>
-          <div class="subhead">
-      
-          <div class="publisher">ANSI (American National Standards Institute)</div>
-          <small class="releaseDate">Dec 2010</small>
-          <div class="website"><a href="https://webstore.ansi.org/standards/ada/adatr10482011" target="external">Link</a></div>
-          </div>
-          <div class="summary">ADA Technical Report No. 1048 for Attachment of DICOM Dataset Using E-Mail. This report promotes patient care and oral health through the application of information technology to dentistry&#x27;s clinical and administrative operations; to develop standards, Standards and technical reports. (2011, R2015)</div>
-        </div>
-        <div class="item">
-          <div class="name">ADA Technical Report No. 1060</div>
-          <div class="subhead">
-      
-          <div class="publisher">ANSI (American National Standards Institute)</div>
-          <small class="releaseDate">Dec 2010</small>
-          <div class="website"><a href="https://webstore.ansi.org/standards/ada/adatr10602011" target="external">Link</a></div>
-          </div>
-          <div class="summary">The Secure Exchange and Utilization of Digital Images in Dentistry. This report promotes patient care and oral health through the application of information technology to dentistry&#x27;s clinical and administrative operations; to develop standards, Standards and technical reports. (2011, R2015)</div>
-        </div>
-        <div class="item">
-          <div class="name">ANSI/ADA 1058-2010 (R2020)</div>
-          <div class="subhead">
-      
-          <div class="publisher">ANSI (American National Standards Institute)</div>
-          <small class="releaseDate">Dec 2009</small>
-          <div class="website"><a href="https://webstore.ansi.org/standards/ada/ansiada10582010r2020" target="external">Link</a></div>
-          </div>
-          <div class="summary">Forensic Dental Data Set. This report promotes patient care and oral health through the application of information technology to dentistry&#x27;s clinical and administrative operations; to develop standards, Standards and technical reports.</div>
-        </div>
-        <div class="item">
-          <div class="name">ADA TR 1059-2010 (R2023)</div>
-          <div class="subhead">
-      
-          <div class="publisher">ANSI (American National Standards Institute)</div>
-          <small class="releaseDate">Dec 2009</small>
-          <div class="website"><a href="https://webstore.ansi.org/standards/ada/adatr10592010r2023" target="external">Link</a></div>
-          </div>
-          <div class="summary">ADA Technical Report No.1059 Guidelines for the Application of the DICOM Standard to Radiographic - ADA1059-2020. In the current DICOM documentation, cephalograms are not addressed directly. This technical report (TR) was developed to fill the gap in such a way as to provide imaging equipment vendors an approved way of storing cephalograms along with their clinically relevant data, in an interoperable way.</div>
-        </div>
-        <div class="item">
-          <div class="name">Cone beam computed tomography and the orthodontic office of the future</div>
-          <div class="subhead">
-      
-          <div class="publisher">seminars in orthodontics</div>
-          <small class="releaseDate">Feb 2009</small>
-          <div class="website"><a href="https://www.sciencedirect.com/science/article/abs/pii/S1073874608000674" target="external">Link</a></div>
-          </div>
-          <div class="summary">the use of technological devices has not always successfully increased the efficiency of orthodontic practices. often, new technology is introduced into the practice too soon, effectively interrupting the learning process of their older counterparts and hindering optimization. consequently, the ultimate goal of efficiency can easily become eclipsed by indulging into new orthodontic gadgets.cone beam computed tomography can similarly get in the way, if the users are not aware of such phenomena. in this article the author relates how these can negatively affect efficiency, while explaining the role of software interoperability for the ergonomics of the orthodontic practice. some suggestions on how to prepare for the future are provided.</div>
-        </div>
-        <div class="item">
-          <div class="name">Solving incompatibilities between electronic records for orthodontic patients</div>
-          <div class="subhead">
-      
-          <div class="publisher"> Am J Orthod Dentofacial Orthop</div>
-          <small class="releaseDate">Jun 2007</small>
-          <div class="website"><a href="https://pubmed.ncbi.nlm.nih.gov/17628259" target="external">Link</a></div>
-          </div>
-          <div class="summary">Today, orthodontists should not need to burden their work load with tasks such as figuring out how to send patient information to colleagues or how to share the same patient record across different software programs. In a long-term attempt to lighten these tasks, we are developing a standard for electronic orthodontic patient records to enable a seamless interchange of data between software programs. This article describes a practical proposal that integrates 2 existing standards, HL7 and DICOM, to create a standard for electronic orthodontic patient records.</div>
-        </div>
-        <div class="item">
-          <div class="name">Proposta e implementação de um padrão para softwares ortodônticos</div>
-          <div class="subhead">
-      
-          <div class="publisher">Universidade de Brasília</div>
-          <small class="releaseDate">Dec 2005</small>
-          <div class="website"><a href="https://repositorio.unb.br/bitstream/10482/5709/1/2006_Antonio%20Ferdinando%20Magni.pdf" target="external">Link</a></div>
-          </div>
-          <div class="summary">46 f., il. Dissertação (Mestrado em Engenharia Elétrica)-Universidade de Brasília, Brasília, 2006. (Masters Thesis)</div>
-        </div>
-        <div class="item">
-          <div class="name">PANIO: The first orthodontic standard</div>
-          <div class="subhead">
-      
-          <div class="publisher">American Association of Orthodontics Annual Session</div>
-          <small class="releaseDate">Dec 2004</small>
-          <div class="summary">Poster.</div>
-        </div>
-      </section>
-      <section id="languages" class="languages">
-        <div class="item">
-          <h2>Languages</h2>
-          <div class="language-item">
-            <span class="language">italian:</span>
-            <span class="fluency">native speaker</span>
-          </div>
-        </div>
-        <div class="item">
-          <div class="language-item">
-            <span class="language">english:</span>
-            <span class="fluency">native speaker</span>
-          </div>
-        </div>
-        <div class="item">
-          <div class="language-item">
-            <span class="language">german:</span>
-            <span class="fluency">advanced</span>
-          </div>
-        </div>
-        <div class="item">
-          <div class="language-item">
-            <span class="language">portuguese (brazil):</span>
-            <span class="fluency">intermediate</span>
-          </div>
-        </div>
-      </section>
-      <section id="interests" class="interests">
-        <div class="item">
-          <h2>Interests</h2>
-          <span class="name">acting:</span>
-        </div>
-        <div class="item">
-          <span class="name">music:</span>
-          <span class="keywords">
-            <span>trombone</span>,
-            <span>percussions</span>
-          </span>
-        </div>
-      </section>
-      <section id="references" class="references">
-        <div class="item">
-          <h2>References</h2>
-          <blockquote class="reference">I&#x27;ve had the opportunity to test his professional and interpersonal skills on many occasions. Engineer Magni is an honest, trustworthy, and highly skilled professional. The project to promote computer interoperability in as many sectors as possible is the right one. In the field of medicine and orthodontics, orthodontic computer interoperability is an urgent necessity, based on principles of professional ethics and transparency towards patients.</blockquote>
-          <div class="name">— dr. Marco Rosa</div>
-        </div>
-        <div class="item">
-          <blockquote class="reference">Engineer Antonio Magni has been collaborating with our orthodontic practice as an IT expert for more than ten years now. He has always ensured the smooth functioning of our management software and the entire network infrastructure with great dedication and availability. Over these years, a relationship of friendship and mutual trust has developed between him and the members of the practice. This allows me to affirm that Antonio, or Toni as we call him, is a highly skilled IT professional and a friendly, reliable, punctual, and honest person. I can only wish him the best for the continuation of his professional career, hoping, although I have no doubts, that he will continue to come to our rescue with IT challenges in the future! Thank you, Toni, from all of us!</blockquote>
-          <div class="name">— dr. Andrea Compri</div>
-        </div>
-        <div class="item">
-          <blockquote class="reference">Toni has been very active in committing his time to improving standards and guidelines for digital dentistry over several years... with special emphasis on orthodontics. He has been totally dependable and has followed through on all tasks assigned to him.</blockquote>
-          <div class="name">— dr. Allan G. Farman</div>
-        </div>
-        <div class="item">
-          <blockquote class="reference">I first met Toni and worked with him on the Standards Committee on Dental Informatics for the ADA and AAO. His contributions are significant and his dedication to detail of this important area.</blockquote>
-          <div class="name">— dr. Bill Harrell</div>
-        </div>
-      </section>
-    </div>
-	</body>
+	</div>
+  </body>
 </html>
