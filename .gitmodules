@@ -1,3 +1,4 @@
 [submodule "modules/resume"]
 	path = modules/resume
 	url = git@gt.afm.co:afm/resume.git
+	update = none
