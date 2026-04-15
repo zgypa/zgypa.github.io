@@ -13,7 +13,7 @@ Toni is fuelled by his passion for eliminating inefficiencies, specifically in
 the medical profession, where software is often not capable of easily exchanging
 data between each other. He considers himself a patiently hard working nerd
 eager to create an infrastructure which software developers, doctors and
-patients can use to fully take advantage of current and future technologies. 
+patients can use to fully take advantage of current and future technologies.
 
 Believing the involvement of the entire orthodontic community to be necessary in
 order to succeed, his position as clinical instructor at the orthodontic
