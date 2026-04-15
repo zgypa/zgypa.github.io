@@ -6,7 +6,7 @@
 
 ## Publishing changes
 
-Merge changes into `main`. Hosting is done on Github.io.
+Merge changes into `main` and push. Hosting is done on Github.io on branch main.
 
 ## Updating CV
 
