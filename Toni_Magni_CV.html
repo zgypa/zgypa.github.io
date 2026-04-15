@@ -190,6 +190,12 @@ section.skills .item .name {
   vertical-align: top;
   white-space: nowrap;
 }
+section.skills .item .level {
+  font-size: 90%;
+  font-style: italic;
+  white-space: nowrap;
+  vertical-align: top;
+}
 section.skills .item .keywords {
   display: inline-block;
   font-size: 90%;
@@ -349,10 +355,10 @@ section.experience .item header .subhead, section.volunteering .item header .sub
             <span class="contact-detail"><a href="https://www.antoniomagni.com" target="external">https://www.antoniomagni.com</a></span>
           </div>
           <address>
-            <span class="address-detail">Valle Berlino 151</span>
-            <span class="address-detail">Rossiglione,</span>
-            <span class="address-detail">Liguria</span>
-            <span class="address-detail">GE, 16010</span>
+            <span class="address-detail">Piazza Mostra 19</span>
+            <span class="address-detail">Trento,</span>
+            <span class="address-detail">Trentino</span>
+            <span class="address-detail">TN, 38122</span>
             <span class="address-detail">IT</span>
           </address>
         </header>
@@ -396,6 +402,21 @@ section.experience .item header .subhead, section.volunteering .item header .sub
       <section id="experience" class="experience">
         <section class="item">
           <h2>Experience</h2>
+          <header>
+            <h3 class="name"><a href="https://medoco.health" target="external">Medoco Health</a></h3>
+            <div class="subhead">
+            <span class="position">CTO (Chief Technology Officer)</span>
+                  <small class="dates">Jan 2024
+              - Present</small>
+            </div>
+          </header>
+          <div class="summary"><p>Simple solutions based on established enterprise standards.</p></div>
+          <ul class="highlights">
+            <li>Interoperability specialists</li>
+            <li>Open-standards software solutions</li>
+          </ul>
+        </section>
+        <section class="item">
           <header>
             <h3 class="name"><a href="https://ortocomputer.com" target="external">Ortocomputer</a></h3>
             <div class="subhead">
@@ -479,7 +500,10 @@ section.experience .item header .subhead, section.volunteering .item header .sub
       <section id="skills" class="skills">
         <div class="item">
           <h2>Skills</h2>
-          <div class="name">system administration and devops</div>
+          <div class="subhead">
+            <span class="name">system administration and devops</span>
+            <span class="level">master</span>
+          </div>
           <div class="keywords">
             ipv4,
             ipv6,
@@ -501,7 +525,10 @@ section.experience .item header .subhead, section.volunteering .item header .sub
           </div>
         </div>
         <div class="item">
-          <div class="name">cyber security</div>
+          <div class="subhead">
+            <span class="name">cyber security</span>
+            <span class="level">competent</span>
+          </div>
           <div class="keywords">
             openvpn,
             pki,
@@ -511,7 +538,10 @@ section.experience .item header .subhead, section.volunteering .item header .sub
           </div>
         </div>
         <div class="item">
-          <div class="name">project management</div>
+          <div class="subhead">
+            <span class="name">project management</span>
+            <span class="level">advanced</span>
+          </div>
           <div class="keywords">
             agile workflow,
             jira,
@@ -521,7 +551,10 @@ section.experience .item header .subhead, section.volunteering .item header .sub
           </div>
         </div>
         <div class="item">
-          <div class="name">programming</div>
+          <div class="subhead">
+            <span class="name">programming</span>
+            <span class="level">competent</span>
+          </div>
           <div class="keywords">
             python,
             java,
@@ -532,13 +565,19 @@ section.experience .item header .subhead, section.volunteering .item header .sub
           </div>
         </div>
         <div class="item">
-          <div class="name">machine learning</div>
+          <div class="subhead">
+            <span class="name">machine learning</span>
+            <span class="level">intermediate</span>
+          </div>
           <div class="keywords">
             pytorch
           </div>
         </div>
         <div class="item">
-          <div class="name">web development</div>
+          <div class="subhead">
+            <span class="name">web development</span>
+            <span class="level">competent</span>
+          </div>
           <div class="keywords">
             html,
             css,
@@ -546,7 +585,10 @@ section.experience .item header .subhead, section.volunteering .item header .sub
           </div>
         </div>
         <div class="item">
-          <div class="name">clinical informatics</div>
+          <div class="subhead">
+            <span class="name">clinical informatics</span>
+            <span class="level">proficient</span>
+          </div>
           <div class="keywords">
             enterprise imaging,
             orthanc,
@@ -562,6 +604,20 @@ section.experience .item header .subhead, section.volunteering .item header .sub
       <section id="certificates" class="certificates">
         <div class="item">
           <h2>Certificates</h2>
+          <header>
+              <h3 class="name">Certificate of Attendance HIMSS24 European Health Conference &amp; Exhibition, Rome</h3>
+            <small class="dates">
+              <span class="endDate"> - Present</span>
+            </small>
+          </header>
+          <div class="issuer_container">
+            <span class="issuer">HIMSS</span>
+            <span class="url_container">
+                  <a href="https://himss.org" target="external">https://himss.org</a>
+            </span>
+          </div>
+        </div>
+        <div class="item">
           <header>
               <h3 class="name">IHE Certified Professional</h3>
             <small class="dates">
@@ -811,6 +867,7 @@ section.experience .item header .subhead, section.volunteering .item header .sub
           </header>
           <div class="qualification">
             <span class="studyType">Masters of Science</span>
+            &mdash;
             <span class="area">Electrical Engineering, Computer Networking</span>
           </div>
         </div>
@@ -818,12 +875,13 @@ section.experience .item header .subhead, section.volunteering .item header .sub
           <header>
               <h3 class="name">Case Western Reserve University</h3>
               <small class="dates">
-                <span class="startDate">Jan 2011</span>
-                <span class="endDate"> - Jan 2013</span>
+                <span class="startDate">Aug 1996</span>
+                <span class="endDate"> - May 2001</span>
               </small>
           </header>
           <div class="qualification">
             <span class="studyType">Bachelor of Science</span>
+            &mdash;
             <span class="area">Biomedical Engineering</span>
           </div>
         </div>
@@ -854,12 +912,30 @@ section.experience .item header .subhead, section.volunteering .item header .sub
       <section id="publications" class="publications">
         <div class="item">
           <h2>Publications</h2>
+          <div class="name">DICOM CP-1570</div>
+          <div class="subhead">
+      
+          <div class="publisher">DICOM (National Electrical Manufacturers Association)</div>
+          <small class="releaseDate">Jan 2025</small>
+          <div class="website"><a href="https://www.dicomstandard.org/news-dir/current/docs/cpack130/cp1570.pdf" target="external">Link</a></div>
+          </div>
+          <div class="summary">Add Dental Acquisition Attributes into VL IOD. This change proposal adds dental acquisition attributes to the Visible Light Image Object Definition (VL IOD) to support interoperable exchange of dental clinical photographs in DICOM.</div>
+        </div>
+        <div class="item">
+          <div class="name">ANSI/ADA 1114</div>
+          <div class="subhead">
+      
+          <div class="publisher">ANSI (American National Standards Institute)</div>
+          <small class="releaseDate">Jan 2025</small>
+          <div class="summary">Dentistry - Implementation Requirements for the Effective Use of DICOM</div>
+        </div>
+        <div class="item">
           <div class="name"> ANSI/ADA 1100-2022</div>
           <div class="subhead">
       
           <div class="publisher">ANSI (American National Standards Institute)</div>
           <small class="releaseDate">Jan 2021</small>
-          <div class="website"><a href="https://webstore.ansi.org/search/find?in=1&amp;st=ANSI%2FADA+1100-2022" target="external">Link</a></div>
+          <div class="website"><a href="https://webstore.ansi.org/standards/ada/ansiada11002022" target="external">Link</a></div>
           </div>
           <div class="summary">Codes for Orthodontic/Craniofacial/Forensic Photographic Views and View Sets. High quality photographic documentation is central to optimizing orthodontic, craniofacial, and forensic clinical records. This white paper shows how codes, enumerated terms, systematized nomenclature, templates and informatics standards can be used to improve the interoperability and transmissibility of visible light intraoral and extraoral clinical photographs.</div>
         </div>
