@@ -2,8 +2,7 @@
 
 ## To build locally
 
-    gem install --user-install github-pages bundler
-    bundle exec jekyll serve
+    nix develop -c bundle exec jekyll serve
 
 ## Publishing changes
 
